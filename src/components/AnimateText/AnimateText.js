@@ -4,9 +4,11 @@ import Typed from 'typed.js';
 const AnimateText = () => {
   const words = ['Frontend Developer', 'Backend Developer',
     'Fullstack Developer', 'Google Cloud Engineer'];
+
   const options = {
     strings: words, typeSpeed: 50, backSpeed: 50, loop: true, cursorChar: '|'
   };
+
   useEffect(() => {
     const typed = new Typed('#span-text', options);
     return () => {
@@ -19,7 +21,6 @@ const AnimateText = () => {
       <span
         id="span-text"
         style={{ whiteSpace: 'pre' }}
-        // ref={(el) => { '#element' = el; }}
       />
     </>
   );
