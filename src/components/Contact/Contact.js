@@ -5,9 +5,9 @@ const Contact = () => (
     <form action="#" method="POST">
       <div className="shadow-lg sm:overflow-hidden sm:rounded-md my-16">
         <div className="px-4 py-5 bg-white space-y-6 sm:p-6">
-          <h2 className="block mt-6 mb-10 text-lg font-semibold text-gray-700">Interested? Reach me out</h2>
+          <h2 className="block mt-6 mb-10 text-xl font-semibold text-gray-800">Interested? Reach me out</h2>
           <div className="col-span-6 sm:col-span-3">
-            <label htmlFor="first_name" className="block text-sm font-medium text-gray-700">
+            <label htmlFor="first_name" className="block text-base font-light text-gray-900">
               Name
             </label>
             <input
@@ -18,7 +18,7 @@ const Contact = () => (
             />
           </div>
           <div className="col-span-6 sm:col-span-4">
-            <label htmlFor="email_address" className="block text-sm font-medium text-gray-700">
+            <label htmlFor="email_address" className="block text-base font-light text-gray-900">
               Email address
             </label>
             <input
@@ -30,7 +30,7 @@ const Contact = () => (
           </div>
 
           <div className="col-span-6 sm:col-span-6 lg:col-span-2">
-            <label htmlFor="city" className="block text-sm font-medium text-gray-700">
+            <label htmlFor="city" className="block text-base font-light text-gray-900">
               Message
             </label>
             <textarea
