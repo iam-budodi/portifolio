@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Layout = ({ children }) => (
-  <div className="mx-2 my-1">
+  <div id="home" className="mx-1 m-0">
     { children }
   </div>
 );

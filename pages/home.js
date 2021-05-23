@@ -6,11 +6,13 @@ import Layout from '../src/components/Layout/Layout';
 import Footer from '../src/components/Footer/Footer';
 import Services from '../src/components/Services/Services';
 import CarouselSlider from '../src/components/Carousel/Carousel';
+import About from '../src/components/About/About';
 
 export default function Page() {
   return (
     <Layout>
       <Header />
+      <About />
       <CarouselSlider />
       <Services />
       <Contact />
