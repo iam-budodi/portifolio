@@ -14,11 +14,11 @@ const Hero = () => (
             <div className="font-sans font-semibold text-normal">Hello, my name is Japhet</div>
             <div className="font-sans font-semibold pt-10 text-3xl mb-12 leading leading-relaxed">
               I am a
-              <div className="text-yellow-400 pt-1 my-2">
+              <div className="text-yellow-400 mx-auto pt-1 my-2">
                 <AnimateText />
               </div>
             </div>
-            <div className="w-10/12 m-auto font-extralight text-base text-white pt-4">
+            <div className="w-10/12 m-auto font-extralight text-base text-white pt-2">
               {`Together, let's build the right competitive innovative digital solutions for
               your business needs.`}
             </div>
