@@ -18,7 +18,7 @@ const Hero = () => (
                 <AnimateText />
               </div>
             </div>
-            <div className="w-10/12 m-auto font-extralight text-base text-white pt-2">
+            <div className="w-11/12 m-auto font-extralight text-base text-white pt-2">
               {`Together, let's build the right competitive innovative digital solutions for
               your business needs.`}
             </div>
