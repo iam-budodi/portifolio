@@ -32,12 +32,17 @@ const About = () => (
           I am capable of handling your works alone, and also super collaborative
           when it comes to team.
         </div>
-        <div className="w-full lg:w-2/3 py-2 text-yellow-500 dark:bg-gray-800 leading-relaxed">
+        <div className="w-full lg:w-2/3 py-2 dark:bg-gray-800 leading-relaxed">
           Currently working at
           {' '}
-          <span className="text-blue-500">Exim Bank Tanzania</span>
+          <span className="text-yellow-500">Exim Bank Tanzania</span>
           {' '}
-          as an Application Support Analyst, mainly handling analysis of business use cases
+          as an
+          {' '}
+          <span className="text-yellow-500">Application Support Analyst</span>
+          ,
+          {' '}
+          mainly handling analysis of business use cases
           and the entire software development cycle while liasoning with my internal teams
           and external vendors.
         </div>
