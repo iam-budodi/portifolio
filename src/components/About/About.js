@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About = () => (
-  <div id="about" className="relative my-24 space-y-12 shadow rounded  border-t p-6">
+  <div id="about" className="my-24 space-y-12 shadow rounded  border-t p-6">
     <div className="flex flex-col items-start ">
       <p className="text-xl font-semibold leading-5 text-gray-800 pt-4">A little bit about me</p>
     </div>
@@ -32,7 +32,15 @@ const About = () => (
           I am capable of handling your works alone, and also super collaborative
           when it comes to team.
         </div>
-
+        <div className="w-full lg:w-2/3 py-2 text-yellow-500 dark:bg-gray-800 leading-relaxed">
+          Currently working at
+          {' '}
+          <span className="text-blue-500">Exim Bank Tanzania</span>
+          {' '}
+          as an Application Support Analyst, mainly handling analysis of business use cases
+          and the entire software development cycle while liasoning with my internal teams
+          and external vendors.
+        </div>
       </div>
     </div>
   </div>

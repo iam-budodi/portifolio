@@ -1,12 +1,9 @@
 import React from 'react';
-import { StickyContainer, Sticky } from 'react-sticky';
-import Hero from '../Hero/Hero';
 import Nav from '../Nav/Nav';
 
 const Header = () => (
-  <div>
+  <div className="overflow-auto z-10" style={{ zIndex: 300 }}>
     <Nav />
-    <Hero />
   </div>
 );
 

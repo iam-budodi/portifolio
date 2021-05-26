@@ -69,70 +69,75 @@ class CarouselSlider extends React.Component {
       );
     };
     return (
-      <div id="projects" className="relative my-24 space-y-12 shadow rounded  border-t p-6">
-        <div className="flex flex-col items-start ">
+      <div id="projects" className="my-16 space-y-12 shadow rounded  border-t px-6 py-10">
+        <div className="flex flex-col items-start">
           <p className="text-xl font-semibold leading-5 text-gray-800 pt-4">Some of my work</p>
         </div>
-        <Carousel
-          ssr={false}
-          // eslint-disable-next-line no-return-assign
-          ref={(el) => (this.Carousel = el)}
-          partialVisbile={false}
-          customButtonGroup={<CustomSlider />}
-          itemClass="slider-image-item"
-          responsive={responsive}
-          containerClass="carousel-container-with-scrollbar"
-          additionalTransfrom={-this.state.additionalTransfrom}
-          beforeChange={(nextSlide) => {
-            if (nextSlide !== 0 && this.state.additionalTransfrom !== 5) {
-              this.setState({ additionalTransfrom: 0 });
-            }
-            if (nextSlide === 0 && this.state.additionalTransfrom === 0) {
-              this.setState({ additionalTransfrom: 0 });
-            }
-          }}
-        >
-          <div className="image-container increase-size">
-            <div className="flex items-center justify-between w-full">
-              <div className="flex flex-col lg:flex-row mx-auto w-full lg:items-center rounded bg-white shadow-xl border-t">
-                <div className="w-full lg:w-2/3 h-72 dark:bg-gray-800">
-                  <img
-                    alt="Real time weather app"
-                    className="object-cover h-72"
-                    src="/images/weather.jpeg"
-                  />
-                </div>
-                <div className="w-full lg:w-1/3 h-24 dark:border-gray-700 lg:h-64 border-t lg:border-t-0 lg:border-r lg:border-l lg:rounded-r dark:bg-gray-700 bg-gray-100 px-4">
-                  <div className="font-semibold text-gray-700 text-xl leading-loose">Weather App</div>
-                  <div className="text-gray-900 text-base font-light ">Get real-time weather information</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="increase-size">
-            <div className="flex items-center justify-between w-full">
-              <div className="flex flex-col lg:flex-row mx-auto w-full lg:items-center rounded bg-white shadow-xl border-t">
-                <div className="w-full lg:w-2/3 h-72 dark:bg-gray-800" />
-                <div className="w-full lg:w-1/3 h-24 dark:border-gray-700 lg:h-64 border-t lg:border-t-0 lg:border-r lg:border-l lg:rounded-r dark:bg-gray-700 bg-gray-100 px-4">
-                  <div className="font-semibold text-gray-700 text-xl leading-loose">My Portifolio Site</div>
-                  <div className="text-gray-900 text-base font-light ">Introducing me to the world</div>
+        <div className="flex flex-col items-center">
+          <p className="leading-5 text-gray-800 text-center">More projects of different size built with latest technology are to come.</p>
+        </div>
+        <div className="flex-1 overflow-y-auto">
+          <Carousel
+            ssr={false}
+            // eslint-disable-next-line no-return-assign
+            ref={(el) => (this.Carousel = el)}
+            partialVisbile={false}
+            customButtonGroup={<CustomSlider />}
+            itemClass="slider-image-item"
+            responsive={responsive}
+            containerClass="carousel-container-with-scrollbar"
+            additionalTransfrom={-this.state.additionalTransfrom}
+            beforeChange={(nextSlide) => {
+              if (nextSlide !== 0 && this.state.additionalTransfrom !== 5) {
+                this.setState({ additionalTransfrom: 0 });
+              }
+              if (nextSlide === 0 && this.state.additionalTransfrom === 0) {
+                this.setState({ additionalTransfrom: 0 });
+              }
+            }}
+          >
+            <div className="image-container increase-size">
+              <div className="flex items-center justify-between w-full">
+                <div className="flex flex-col lg:flex-row mx-auto w-full lg:items-center rounded bg-white shadow-xl border-t h-full">
+                  <div className="w-full lg:w-2/3 h-72 dark:bg-gray-800">
+                    <img
+                      alt="Real time weather app"
+                      className="object-cover h-72"
+                      src="/images/weather.jpeg"
+                    />
+                  </div>
+                  <div className="w-full lg:w-1/3 h-24 dark:border-gray-700 lg:h-64 border-t lg:border-t-0 lg:border-r lg:border-l lg:rounded-r dark:bg-gray-700 bg-gray-100 px-4">
+                    <div className="font-semibold text-gray-700 text-xl leading-loose">Weather App</div>
+                    <div className="text-gray-900 text-base font-light ">Get real-time weather information</div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+            <div className="increase-size">
+              <div className="flex items-center justify-between w-full">
+                <div className="flex flex-col lg:flex-row mx-auto w-full lg:items-center rounded bg-white shadow-xl border-t">
+                  <div className="w-full lg:w-2/3 h-72 dark:bg-gray-800" />
+                  <div className="w-full lg:w-1/3 h-24 dark:border-gray-700 lg:h-64 border-t lg:border-t-0 lg:border-r lg:border-l lg:rounded-r dark:bg-gray-700 bg-gray-100 px-4">
+                    <div className="font-semibold text-gray-700 text-xl leading-loose">My Portifolio Site</div>
+                    <div className="text-gray-900 text-base font-light ">Introducing me to the world</div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-          <div className="image-container increase-size">
-            <div className="flex items-center justify-between w-full">
-              <div className="flex flex-col lg:flex-row mx-auto w-full lg:items-center rounded bg-white shadow-xl border-t">
-                <div className="w-full lg:w-2/3 h-72 dark:bg-gray-800" />
-                <div className="w-full lg:w-1/3 h-24 dark:border-gray-700 lg:h-64 border-t lg:border-t-0 lg:border-r lg:border-l lg:rounded-r dark:bg-gray-700 bg-gray-100 px-4">
-                  <div className="font-semibold text-gray-700 text-xl leading-loose">Weather App</div>
-                  <div className="text-gray-900 text-base font-light ">Get real-time weather information</div>
+            <div className="image-container increase-size">
+              <div className="flex items-center justify-between w-full">
+                <div className="flex flex-col lg:flex-row mx-auto w-full lg:items-center rounded bg-white shadow-xl border-t">
+                  <div className="w-full lg:w-2/3 h-72 dark:bg-gray-800" />
+                  <div className="w-full lg:w-1/3 h-24 dark:border-gray-700 lg:h-64 border-t lg:border-t-0 lg:border-r lg:border-l lg:rounded-r dark:bg-gray-700 bg-gray-100 px-4">
+                    <div className="font-semibold text-gray-700 text-xl leading-loose">Weather App</div>
+                    <div className="text-gray-900 text-base font-light ">Get real-time weather information</div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </Carousel>
+          </Carousel>
+        </div>
       </div>
     );
   }
