@@ -14,7 +14,7 @@ const Hero = () => (
             <div className="font-sans font-semibold text-normal">Hello, my name is Japhet</div>
             <div className="font-sans font-semibold pt-10 text-3xl mb-12 leading leading-relaxed">
               I am a
-              <div className="text-yellow-400 mx-auto pt-1 my-2">
+              <div className="w-11/12 m-auto text-yellow-400 mx-auto pt-1 my-2">
                 <AnimateText />
               </div>
             </div>
