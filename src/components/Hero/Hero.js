@@ -20,7 +20,7 @@ const Hero = () => (
           </div>
         </div>
       </div>
-      <div className="h-2/6 m-auto pt-8 absolute right-0 bottom-0 left-0">
+      <div className="h-2/6 m-auto pt-6 absolute right-0 bottom-0 left-0">
         <ScrollLink target="about">
           <svg
             xmlns="http://www.w3.org/2000/svg"
