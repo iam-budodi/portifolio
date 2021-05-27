@@ -12,8 +12,10 @@ import About from '../src/components/About/About';
 export default function Page() {
   return (
     <Layout>
-      <Header />
-      <Hero />
+      <div className="bg-local overflow-auto bg-cover bg-center bg-no-repeat bg-opacity-0 " style={{ backgroundImage: 'url(/images/background-1.jpg)' }}>
+        <Header />
+        <Hero />
+      </div>
       <About />
       <CarouselSlider />
       <Services />

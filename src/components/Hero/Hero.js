@@ -3,7 +3,7 @@ import AnimateText from '../AnimateText/AnimateText';
 import ScrollLink from '../Scroll/Scroll';
 
 const Hero = () => (
-  <div className="relative h-screen bg-fixed overflow-auto bg-cover bg-center bg-no-repeat bg-opacity-0 text-white" style={{ backgroundImage: 'url(/images/background-1.jpg)' }}>
+  <div className="relative h-screen text-white">
     <div className="container">
       <div className="grid-cols-12 lg:grid-cols-7 md:grid-cols-12 items-center h-4/6 m-auto absolute top-0 right-0 bottom-0 left-0">
         <div className="text-center">
