@@ -1,5 +1,22 @@
 import React from 'react';
 
+import Contact from '../src/components/Contact/Contact';
+import Layout from '../src/components/Layout/Layout';
+import Footer from '../src/components/Footer/Footer';
+import Services from '../src/components/Services/Services';
+import CarouselSlider from '../src/components/Carousel/Carousel';
+import About from '../src/components/About/About';
+import Home from '../src/components/Home/Home';
+
 export default function Page() {
-  return <div>Landing Page Goes Here ....</div>;
+  return (
+    <Layout>
+      <Home />
+      <About />
+      <CarouselSlider />
+      <Services />
+      <Contact />
+      <Footer />
+    </Layout>
+  );
 }
