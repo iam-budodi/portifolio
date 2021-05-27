@@ -5,7 +5,7 @@ import ScrollLink from '../Scroll/Scroll';
 const Hero = () => (
   <section className="relative">
     <div
-      className="h-screen bg-fixed overflow-auto bg-cover bg-center bg-no-repeat bg-opacity-0 text-white"
+      className="h-full bg-fixed overflow-auto bg-cover bg-center bg-no-repeat bg-opacity-0 text-white"
       style={{ backgroundImage: 'url(/images/background-1.jpg)' }}
     >
       <div className="container">
