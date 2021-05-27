@@ -5,7 +5,7 @@ import ScrollLink from '../Scroll/Scroll';
 const Hero = () => (
   <section className="relative">
     <div
-      className="h-full bg-fixed overflow-auto bg-cover bg-center bg-no-repeat bg-opacity-0 text-white"
+      className="h-auto bg-fixed overflow-auto bg-cover bg-center bg-no-repeat bg-opacity-0 text-white"
       style={{ backgroundImage: 'url(/images/background-1.jpg)' }}
     >
       <div className="container">
@@ -18,7 +18,7 @@ const Hero = () => (
                 <AnimateText />
               </div>
             </div>
-            <div className="w-11/12 mx-auto font-extralight text-base text-white pt-2">
+            <div className="w-10/12 mx-auto font-extralight text-base text-white pt-2">
               {`Together, let's build the right competitive innovative digital solutions for
               your business needs.`}
             </div>
