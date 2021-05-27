@@ -17,7 +17,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="footer bg-white relative py-10 border-gray-700 border-b-4 rounded-lg">
+      <footer id="contacts" className="footer bg-white relative py-10 border-gray-700 border-b-4 rounded-lg">
         <div className="container mx-auto px-4">
           <div className="sm:flex sm:mt-8">
             <div className="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between space-y-8 sm:space-y-0">
@@ -59,12 +59,12 @@ const Footer = () => {
                 </div>
                 <div className="flex sm:justify-center xl:justify-start">
                   {socialIcon.map(({ link, faIcon }) => (
-                    <span className="mt-4 mx-4" key={link}>
+                    <span className="mt-4 mx-2" key={link}>
                       <a
                         href={link}
                         rel="noreferrer"
                         target="_blank"
-                        className="h-10 w-10 m-auto border-2 border-gray-400 rounded-full text-center p-2 text-gray-600 hover:text-white hover:bg-blue-600  text-md hover:border-blue-600"
+                        className="h-12 w-12 m-auto border-2 border-gray-400 rounded-full text-center p-2 text-gray-600 hover:text-white hover:bg-blue-600  text-md hover:border-blue-600"
                       >
                         <FontAwesomeIcon icon={faIcon} />
                       </a>
