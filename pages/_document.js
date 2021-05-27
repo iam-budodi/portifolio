@@ -21,7 +21,7 @@ class MyDocument extends Document {
           <link
             rel="preload"
             href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Montserrat:wght@400;700&display=swap"
-            as="font"
+            as="fetch"
           />
           <link
             rel="stylesheet"
