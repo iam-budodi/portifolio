@@ -9,7 +9,7 @@ const Hero = () => (
       style={{ backgroundImage: 'url(/images/background-1.jpg)' }}
     >
       <div className="container">
-        <div className="grid-cols-12 lg:grid-cols-7 md:grid-cols-12 items-center h-2/6 m-auto absolute top-0 right-0 bottom-0 left-0">
+        <div className="grid-cols-12 lg:grid-cols-7 md:grid-cols-12 items-center h-4/6 m-auto absolute top-0 right-0 bottom-0 left-0">
           <div className="text-center">
             <div className="font-sans font-semibold text-normal">Hello, my name is Japhet</div>
             <div className="font-sans font-semibold pt-10 text-3xl mb-12 leading leading-relaxed">
