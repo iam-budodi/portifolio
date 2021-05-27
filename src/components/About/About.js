@@ -15,17 +15,17 @@ const About = () => (
           <div className="leading-loose">
             <span className="font-semibold text-gray-800 text-xl">Frontend:</span>
             {' '}
-            HTML5, CSS3, ReactJS
+            HTML5 | CSS3 | ReactJS
           </div>
           <div className="leading-loose">
             <span className="font-semibold text-gray-800 text-xl">Backend:</span>
             {' '}
-            JavaScript (NodeJS,ExpressJs)
+            JavaScript (NodeJS | Express)
           </div>
           <div className="leading-loose">
             <span className="font-semibold text-gray-800 text-xl">Databases:</span>
             {' '}
-            Postgres, MongoDB
+            Postgres | MongoDB
           </div>
         </div>
         <div className="w-full lg:w-2/3 py-8 dark:bg-gray-800 leading-relaxed">

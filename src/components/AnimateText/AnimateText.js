@@ -14,7 +14,7 @@ const AnimateText = () => {
     return () => {
       typed.destroy();
     };
-  }, []);
+  }, [options]);
 
   return (
     <>

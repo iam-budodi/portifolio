@@ -59,7 +59,7 @@ const Footer = () => {
                 </div>
                 <div className="flex sm:justify-center xl:justify-start">
                   {socialIcon.map(({ link, faIcon }) => (
-                    <span className="mt-4 mx-2" key={link}>
+                    <span className="mt-4 mx-8" key={link}>
                       <a
                         href={link}
                         rel="noreferrer"
