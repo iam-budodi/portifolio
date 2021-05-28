@@ -14,7 +14,7 @@ const AnimateText = () => {
     return () => {
       typed.destroy();
     };
-  }, [options]);
+  }, [words]);
 
   return (
     <>
@@ -56,4 +56,5 @@ const AnimateText = () => {
 //     );
 //   }
 // }
+
 export default AnimateText;
