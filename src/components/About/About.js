@@ -20,7 +20,7 @@ const About = () => (
           <div className="leading-loose">
             <span className="font-semibold text-gray-800 text-xl">Backend:</span>
             {' '}
-            JavaScript(NodeJS | Express)
+            JavaScript (NodeJS | Express)
           </div>
           <div className="leading-loose">
             <span className="font-semibold text-gray-800 text-xl">Databases:</span>
