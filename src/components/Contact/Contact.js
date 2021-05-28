@@ -6,7 +6,7 @@ const Contact = () => (
       <form action="#" method="POST">
         <div className="shadow-lg sm:overflow-hidden sm:rounded-md my-4 px-6 py-10">
           <h2 className="block mt-6 mb-10 text-xl font-semibold text-gray-800">Interested? Reach me out</h2>
-          <div className="px-4 py-5 bg-white space-y-8 sm:p-6">
+          <div className="py-5 bg-white space-y-8 sm:p-6">
             <div className="col-span-6 sm:col-span-3">
               <label htmlFor="first_name" className="block text-base font-light text-gray-900">
                 Name
