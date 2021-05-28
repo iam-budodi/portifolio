@@ -13,15 +13,19 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link
-            rel="preconnect"
-            href="https://fonts.gstatic.com"
-            crossOrigin="true"
-          />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
           <link
             rel="preload"
             as="style"
+            type="font"
             href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Montserrat:wght@400;700&display=swap"
+            crossOrigin="crossOrigin"
+          />
+          <link
+            rel="preload"
+            as="image"
+            href="/images/background-1.jpg"
+            crossOrigin="crossOrigin"
           />
           <link
             rel="stylesheet"
