@@ -18,7 +18,6 @@ class MyDocument extends Document {
           <link
             rel="preload"
             as="image"
-            type="image"
             href="images/background-1.jpg"
             crossOrigin
           />
