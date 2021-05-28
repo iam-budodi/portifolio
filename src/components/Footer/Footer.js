@@ -76,15 +76,15 @@ const Footer = () => {
           </div>
         </div>
         <div className="container mx-auto px-6">
-          <div className="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
-            <div className="sm:w-2/3 text-center pt-8 pb-12 space-y-8">
+          <div className="mt-12 border-t-2 border-gray-300 flex flex-col items-center">
+            <div className="sm:w-2/3 text-center pt-8 space-y-4">
               <div className="text-base mb-2">
                 Copyright &copy; 2021
                 {' '}
                 <span className="font-medium text-yellow-400 leading-loose">Japhet Sebastian</span>
                 . All rights reserved.
               </div>
-              <div className="text-base mb-2">
+              <div className="text-base">
                 Designed by
                 {' '}
                 <a href="https://github.com/iam-budodi" className="text-base font-medium text-yellow-400">Japhet</a>
