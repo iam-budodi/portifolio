@@ -18,7 +18,8 @@ class MyDocument extends Document {
           <link
             rel="preload"
             as="image"
-            href="/images/background-1.jpg"
+            type="image"
+            href="images/background-1.jpg"
           />
           <link
             rel="stylesheet"
