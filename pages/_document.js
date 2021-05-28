@@ -20,6 +20,7 @@ class MyDocument extends Document {
             as="image"
             type="image"
             href="images/background-1.jpg"
+            crossOrigin
           />
           <link
             rel="stylesheet"
