@@ -64,7 +64,7 @@ const Footer = () => {
                         href={link}
                         rel="noreferrer"
                         target="_blank"
-                        className="h-10 w-10 rounded-full border-2 border-gray-400 text-center p-2 text-gray-600 hover:text-white hover:bg-blue-600  text-md hover:border-blue-600"
+                        className="h-10 w-8 rounded-full border-2 border-gray-400 text-center p-2 text-gray-600 hover:text-white hover:bg-blue-600  text-md hover:border-blue-600"
                       >
                         <FontAwesomeIcon icon={faIcon} />
                       </a>
