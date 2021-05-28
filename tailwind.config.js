@@ -10,6 +10,9 @@ module.exports = {
       fontFamily: {
         sans: ['Maven Pro, Montserrat', ...defaultTheme.fontFamily.sans],
       },
+      fontSize: {
+        '3xl': '1.775rem',
+      },
       keyFrames: {
         swap: {
           '0%': {
@@ -37,7 +40,7 @@ module.exports = {
           '100%': {
             opacity: '0',
           },
-        }
+        },
       },
       animation: {
         swap: 'swap 6s linear infinite 0s',
@@ -45,7 +48,7 @@ module.exports = {
       transitionDelay: {
         2000: '2000ms',
         4000: '4000ms',
-      }
+      },
     },
   },
   variants: {

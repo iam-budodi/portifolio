@@ -8,10 +8,9 @@ const ScrollLink = ({ target, children }) => (
     spy
     smooth
     hashSpy
-    offset={-5}
+    offset={50}
     duration={1500}
-    delay={500}
-    isDynamic
+    delay={50}
     ignoreCancelEvents={false}
   >
     { children}
