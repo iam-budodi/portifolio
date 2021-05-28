@@ -24,7 +24,7 @@ const Footer = () => {
               <div className="flex flex-col sm:mx-auto px-4">
                 <span className="font-bold mb-8">Address</span>
                 <address className="italic mb-4 text-sm">
-                  <span className="h-10 w-10 border-2 rounded-full hover:border-2 hover:rounded-full text-center p-2 text-gray-600 hover:text-white hover:bg-blue-600  text-md hover:border-blue-600">
+                  <span className="h-8 w-8 m-auto text-center p-2 text-gray-600 hover:text-white hover:bg-blue-600  text-md hover:border-blue-600 leading-loose">
                     <FontAwesomeIcon icon={faMapMarkerAlt} />
                   </span>
                   {' '}
@@ -59,7 +59,7 @@ const Footer = () => {
                 </div>
                 <div className="flex sm:justify-center xl:justify-start">
                   {socialIcon.map(({ link, faIcon }) => (
-                    <span className="mt-4 mx-4" key={link}>
+                    <span className="mt-4 mx-2" key={link}>
                       <a
                         href={link}
                         rel="noreferrer"
