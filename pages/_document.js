@@ -18,7 +18,7 @@ class MyDocument extends Document {
             rel="preload"
             as="style"
             type="font"
-            href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Montserrat:wght@400;700&display=swap"
+            href="fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Montserrat:wght@400;700&display=swap"
             crossOrigin
           />
           <link
