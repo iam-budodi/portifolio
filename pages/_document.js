@@ -14,12 +14,11 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
-          
+
           <link
             rel="preload"
             as="image"
             href="/images/background-1.jpg"
-            crossOrigin="crossOrigin"
           />
           <link
             rel="stylesheet"
