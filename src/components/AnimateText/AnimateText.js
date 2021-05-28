@@ -6,7 +6,7 @@ const AnimateText = () => {
     'Fullstack Developer', 'Google Cloud Engineer'];
 
   const options = {
-    strings: words, typeSpeed: 50, backSpeed: 50, loop: false, cursorChar: '|'
+    strings: words, typeSpeed: 50, backSpeed: 50, loop: true, cursorChar: '|'
   };
 
   useEffect(() => {
