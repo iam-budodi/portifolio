@@ -7,7 +7,6 @@ const ScrollLink = ({ target, children }) => (
     to={target}
     spy
     smooth
-    hashSpy
     offset={-5}
     duration={1500}
     delay={50}
