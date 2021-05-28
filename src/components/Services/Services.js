@@ -26,7 +26,7 @@ const Services = () => {
 
   return (
     <div id="services" className="py-2">
-      <div className="w-full bg-white shadow rounded px-6 py-10">
+      <div className="w-full bg-white shadow rounded px-6 py-6">
         <div className="flex items-end py-4">
           <p className="text-xl font-semibold leading-5 text-gray-800">Services I can offer</p>
         </div>

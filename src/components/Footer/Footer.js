@@ -17,9 +17,9 @@ const Footer = () => {
 
   return (
     <>
-      <footer id="contacts" className="footer bg-white relative py-10 border-gray-700 border-b-4 rounded-lg">
+      <footer id="contacts" className="footer bg-white relative pb-2 border-gray-700 border-b-4 rounded-lg">
         <div className="container mx-auto px-4">
-          <div className="sm:flex sm:mt-8">
+          <div className="sm:flex sm:mt-4">
             <div className="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between space-y-8 sm:space-y-0">
               <div className="flex flex-col sm:mx-auto px-4">
                 <span className="font-bold mb-8">Address</span>
@@ -87,7 +87,7 @@ const Footer = () => {
               <div className="text-base">
                 Designed by
                 {' '}
-                <a href="https://github.com/iam-budodi" className="text-base font-medium text-yellow-400">Japhet</a>
+                <a href="https://github.com/iam-budodi" className="text-base font-medium text-yellow-400 hover:text-yellow-800">Japhet</a>
               </div>
             </div>
           </div>

@@ -74,7 +74,7 @@ class CarouselSlider extends React.Component {
           <p className="text-xl font-semibold leading-5 text-gray-800 pt-4">Some of my work</p>
         </div>
         <div className="flex flex-col items-center">
-          <p className="leading-5 text-gray-800 text-center">More projects of different size built with latest technology are to come.</p>
+          <p className="leading-5 text-gray-800 text-center">Explore my rich and diverse projects of different size and technologies</p>
         </div>
         <div className="flex-1 overflow-y-auto">
           <Carousel
@@ -128,12 +128,32 @@ class CarouselSlider extends React.Component {
             <div className="image-container increase-size">
               <div className="flex items-center justify-between w-full">
                 <div className="flex flex-col lg:flex-row mx-auto w-full lg:items-center rounded bg-white shadow-xl border-t">
-                  <div className="w-full lg:w-2/3 h-72 dark:bg-gray-800" />
-                  <div className="w-full lg:w-1/3 h-24 dark:border-gray-700 lg:h-64 border-t lg:border-t-0 lg:border-r lg:border-l lg:rounded-r dark:bg-gray-700 bg-gray-100 px-4">
-                    <div className="font-semibold text-gray-700 text-xl leading-loose">Weather App</div>
-                    <div className="text-gray-900 text-base font-light ">Get real-time weather information</div>
+                  <div className="w-full rounded overflow-hidden shadow-2xl dark:bg-gray-800">
+                    <img
+                      alt="Real time weather app"
+                      src="/images/weather.jpeg"
+                    />
+                  </div>
+                  <div className="w-full lg:w-1/3  dark:border-gray-700 border-t lg:border-t-0 lg:border-r lg:border-l lg:rounded-r dark:bg-gray-700 bg-gray-100 px-6 py-4">
+                    <div className="font-semibold text-gray-700 text-xl leading-loose mb-2">Weather App</div>
+                    <div className="text-gray-700 text-base font-light ">Get real-time weather information</div>
+                  </div>
+                  <div className="px-6 py-4">
+                    <button type="button" className="bg-blue-800 py-2 px-2 rounded text-white">Go Somewhere</button>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div className="w-64 rounded overflow-hidden shadow-2xl">
+              <img className="w-full" src="https://www.fillmurray.com/300/300" alt="Sunset in the mountains" />
+              <div className="px-6 py-4">
+                <div className="font-bold text-xl mb-2">Card Title</div>
+                <p className="text-gray-700 text-base">
+                  Some quick example text
+                </p>
+              </div>
+              <div className="px-6 py-4">
+                <button type="button" className="bg-blue-800 py-2 px-2 rounded text-white">Go Somewhere</button>
               </div>
             </div>
           </Carousel>

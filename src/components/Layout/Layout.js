@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Layout = ({ children }) => (
-  <div id="home">
+  <div id="home" className="cursor-auto">
     { children }
   </div>
 );

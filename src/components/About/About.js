@@ -35,7 +35,7 @@ const About = () => (
         <div className="w-full lg:w-2/3 py-2 dark:bg-gray-800 leading-relaxed">
           Currently working at
           {' '}
-          <span className="text-yellow-500">Exim Bank Tanzania</span>
+          <a href="https://github.com/iam-budodi" className="text-yellow-500 hover:text-yellow-800">Exim Bank Tanzania</a>
           {' '}
           as an
           {' '}
