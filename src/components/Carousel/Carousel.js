@@ -72,7 +72,7 @@ class CarouselSlider extends React.Component {
       );
     };
     return (
-      <div id="projects" className="my-16 space-y-6 shadow-4xl rounded  border-t p-6">
+      <div id="projects" className="my-14 space-y-6 rounded p-6">
         <div className="flex flex-col items-start pt-4">
           <p className="text-xl font-semibold leading-5 text-gray-800">Some of my work</p>
         </div>
