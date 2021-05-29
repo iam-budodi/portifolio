@@ -1,7 +1,10 @@
 /* eslint-disable react/destructuring-assignment */
 import React from 'react';
+import Image from 'next/image';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import ActiveLink from '../ActiveLink/ActiveLink';
+import Button from '../Button/Button';
 
 const responsive = {
   desktop: {
@@ -69,7 +72,7 @@ class CarouselSlider extends React.Component {
       );
     };
     return (
-      <div id="projects" className="my-16 space-y-12 shadow rounded  border-t px-6 py-10">
+      <div id="projects" className="my-16 space-y-10 shadow-4xl rounded  border-t px-6 py-8">
         <div className="flex flex-col items-start">
           <p className="text-xl font-semibold leading-5 text-gray-800 pt-4">Some of my work</p>
         </div>
@@ -96,64 +99,50 @@ class CarouselSlider extends React.Component {
               }
             }}
           >
-            <div className="image-container increase-size">
-              <div className="flex items-center justify-between w-full">
-                <div className="flex flex-col lg:flex-row mx-auto w-full lg:items-center rounded bg-white shadow-xl border-t h-full">
-                  <div className="w-full lg:w-2/3 h-72 dark:bg-gray-800">
-                    <img
-                      alt="Real time weather app"
-                      className="object-cover h-72"
-                      src="/images/weather.jpeg"
-                    />
-                  </div>
-                  <div className="w-full lg:w-1/3 h-24 dark:border-gray-700 lg:h-64 border-t lg:border-t-0 lg:border-r lg:border-l lg:rounded-r dark:bg-gray-700 bg-gray-100 px-4">
-                    <div className="font-semibold text-gray-700 text-xl leading-loose">Weather App</div>
-                    <div className="text-gray-900 text-base font-light ">Get real-time weather information</div>
-                  </div>
+            <div className="image-container increase-size pb-4">
+              <div className="w-3/4 m-auto rounded overflow-hidden shadow-2xl">
+                <Image
+                  src="/images/weather.jpeg"
+                  alt="Real time weather app"
+                  layout="responsive"
+                  height={300}
+                  width={300}
+                  className="w-full"
+                />
+                <div className="px-6 py-4">
+                  <div className="font-semibold text-gray-800 text-xl mb-2">Weather App</div>
+                  <p className="text-gray-700 text-base">
+                    Get real-time weather information of any place.
+                  </p>
+                </div>
+                <div className="p-6">
+                  <ActiveLink href=" https://gads-weathers.web.app">
+                    <Button />
+                  </ActiveLink>
                 </div>
               </div>
             </div>
-            <div className="increase-size">
-              <div className="flex items-center justify-between w-full">
-                <div className="flex flex-col lg:flex-row mx-auto w-full lg:items-center rounded bg-white shadow-xl border-t">
-                  <div className="w-full lg:w-2/3 h-72 dark:bg-gray-800" />
-                  <div className="w-full lg:w-1/3 h-24 dark:border-gray-700 lg:h-64 border-t lg:border-t-0 lg:border-r lg:border-l lg:rounded-r dark:bg-gray-700 bg-gray-100 px-4">
-                    <div className="font-semibold text-gray-700 text-xl leading-loose">My Portifolio Site</div>
-                    <div className="text-gray-900 text-base font-light ">Introducing me to the world</div>
-                  </div>
+            <div className="increase-size pb-4">
+              <div className="w-3/4 m-auto rounded overflow-hidden shadow-2xl">
+                <Image
+                  src="/images/avatar.jpg"
+                  alt="Meet me"
+                  layout="responsive"
+                  height={300}
+                  width={300}
+                  className="w-full"
+                />
+                <div className="px-6 py-4">
+                  <div className="font-semibold text-gray-800 text-xl mb-2">My Portifolio Site</div>
+                  <p className="text-gray-700 text-base">
+                    Get brief introduction about me and my work.
+                  </p>
                 </div>
-              </div>
-            </div>
-
-            <div className="image-container increase-size">
-              <div className="flex items-center justify-between w-full">
-                <div className="flex flex-col lg:flex-row mx-auto w-full lg:items-center rounded bg-white shadow-xl border-t">
-                  <div className="w-full rounded overflow-hidden shadow-2xl dark:bg-gray-800">
-                    <img
-                      alt="Real time weather app"
-                      src="/images/weather.jpeg"
-                    />
-                  </div>
-                  <div className="w-full lg:w-1/3  dark:border-gray-700 border-t lg:border-t-0 lg:border-r lg:border-l lg:rounded-r dark:bg-gray-700 bg-gray-100 px-6 py-4">
-                    <div className="font-semibold text-gray-700 text-xl leading-loose mb-2">Weather App</div>
-                    <div className="text-gray-700 text-base font-light ">Get real-time weather information</div>
-                  </div>
-                  <div className="px-6 py-4">
-                    <button type="button" className="bg-blue-800 py-2 px-2 rounded text-white">Go Somewhere</button>
-                  </div>
+                <div className="p-6">
+                  <ActiveLink href=" https://japhet.vercel.app">
+                    <Button />
+                  </ActiveLink>
                 </div>
-              </div>
-            </div>
-            <div className="w-64 rounded overflow-hidden shadow-2xl">
-              <img className="w-full" src="https://www.fillmurray.com/300/300" alt="Sunset in the mountains" />
-              <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">Card Title</div>
-                <p className="text-gray-700 text-base">
-                  Some quick example text
-                </p>
-              </div>
-              <div className="px-6 py-4">
-                <button type="button" className="bg-blue-800 py-2 px-2 rounded text-white">Go Somewhere</button>
               </div>
             </div>
           </Carousel>
