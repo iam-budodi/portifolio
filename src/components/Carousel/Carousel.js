@@ -100,7 +100,7 @@ class CarouselSlider extends React.Component {
             }}
           >
             <div className="pb-4">
-              <div className="w-3/4 m-auto rounded overflow-hidden shadow-2xl">
+              <div className="w-11/12 m-auto rounded overflow-hidden shadow-2xl">
                 <Image
                   src="/images/weather.jpeg"
                   alt="Real time weather app"
@@ -123,7 +123,7 @@ class CarouselSlider extends React.Component {
               </div>
             </div>
             <div className="pb-4">
-              <div className="w-3/4 m-auto rounded overflow-hidden shadow-2xl">
+              <div className="w-11/12 m-auto rounded overflow-hidden shadow-2xl">
                 <Image
                   src="/images/avatar.jpg"
                   alt="Meet me"
