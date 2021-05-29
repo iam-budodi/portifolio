@@ -27,7 +27,25 @@ class MyDocument extends Document {
           <link
             rel="preload"
             as="image"
+            href="images/japhet.jng"
+            crossOrigin
+          />
+          <link
+            rel="preload"
+            as="image"
             href="images/background-1.jpg"
+            crossOrigin
+          />
+          <link
+            rel="preload"
+            as="image"
+            href="images/weather.jpeg"
+            crossOrigin
+          />
+          <link
+            rel="preload"
+            as="image"
+            href="images/avatar.jpg"
             crossOrigin
           />
           <link

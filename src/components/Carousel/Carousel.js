@@ -72,7 +72,7 @@ class CarouselSlider extends React.Component {
       );
     };
     return (
-      <div id="projects" className="my-16 space-y-9 shadow-4xl rounded  border-t p-6">
+      <div id="projects" className="my-16 space-y-6 shadow-4xl rounded  border-t p-6">
         <div className="flex flex-col items-start pt-4">
           <p className="text-xl font-semibold leading-5 text-gray-800">Some of my work</p>
         </div>
@@ -99,7 +99,7 @@ class CarouselSlider extends React.Component {
               }
             }}
           >
-            <div className="pb-4">
+            <div className="pb-3">
               <div className="w-11/12 m-auto rounded overflow-hidden shadow-2xl">
                 <Image
                   src="/images/weather.jpeg"
@@ -122,7 +122,7 @@ class CarouselSlider extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="pb-4">
+            <div className="pb-3">
               <div className="w-11/12 m-auto rounded overflow-hidden shadow-2xl">
                 <Image
                   src="/images/avatar.jpg"
@@ -138,7 +138,7 @@ class CarouselSlider extends React.Component {
                     Get brief introduction about me and my work.
                   </p>
                 </div>
-                <div className="p-6">
+                <div className="px-6 py-4">
                   <ActiveLink href=" https://japhet.vercel.app">
                     <Button />
                   </ActiveLink>
