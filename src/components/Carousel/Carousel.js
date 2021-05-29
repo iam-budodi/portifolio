@@ -72,9 +72,9 @@ class CarouselSlider extends React.Component {
       );
     };
     return (
-      <div id="projects" className="my-16 space-y-10 shadow-4xl rounded  border-t px-6 py-8">
-        <div className="flex flex-col items-start">
-          <p className="text-xl font-semibold leading-5 text-gray-800 pt-4">Some of my work</p>
+      <div id="projects" className="my-16 space-y-9 shadow-4xl rounded  border-t p-6">
+        <div className="flex flex-col items-start pt-4">
+          <p className="text-xl font-semibold leading-5 text-gray-800">Some of my work</p>
         </div>
         <div className="flex flex-col items-center">
           <p className="leading-5 text-gray-800 text-center">Explore my rich and diverse projects of different size and technologies</p>
@@ -99,7 +99,7 @@ class CarouselSlider extends React.Component {
               }
             }}
           >
-            <div className="image-container increase-size pb-4">
+            <div className="pb-4">
               <div className="w-3/4 m-auto rounded overflow-hidden shadow-2xl">
                 <Image
                   src="/images/weather.jpeg"
@@ -122,7 +122,7 @@ class CarouselSlider extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="increase-size pb-4">
+            <div className="pb-4">
               <div className="w-3/4 m-auto rounded overflow-hidden shadow-2xl">
                 <Image
                   src="/images/avatar.jpg"

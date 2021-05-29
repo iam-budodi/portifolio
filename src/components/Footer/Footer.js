@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebook, faGithub, faLinkedin, faTwitter
@@ -55,7 +56,7 @@ const Footer = () => {
               <div className="flex flex-col sm:mx-auto px-4 space-y-8">
                 <span className="font-bold mb-6">Follow me</span>
                 <div className="flex-shrink-0 flex justify-start mb-4 ml-4">
-                  <img className="block lg:block h-24 w-24 rounded-full " src="/images/japhet.png" alt="Workflow" />
+                  <Image height={100} width={100} className="block lg:block h-24 w-24 rounded-full " src="/images/japhet.png" alt="Workflow" />
                 </div>
                 <div className="flex sm:justify-center xl:justify-start">
                   {socialIcon.map(({ link, faIcon }) => (
