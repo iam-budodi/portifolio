@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => (
   <>
-    <div id="checkout" className="my-14 p-6">
+    <div id="checkout" className="mb-14 px-6">
       <form action="#" method="POST">
         <div className="sm:overflow-hidden sm:rounded-md">
           <h2 className="block mt-6 mb-10 text-xl font-semibold text-gray-800">Interested? Reach me out</h2>
