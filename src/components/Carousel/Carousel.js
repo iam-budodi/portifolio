@@ -138,7 +138,7 @@ class CarouselSlider extends React.Component {
                     Get brief introduction about me and my work.
                   </p>
                 </div>
-                <div className="px-6 py-4">
+                <div className="p-6">
                   <ActiveLink href=" https://japhet.vercel.app">
                     <Button />
                   </ActiveLink>
