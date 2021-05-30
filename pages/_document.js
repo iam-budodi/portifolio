@@ -16,37 +16,37 @@ class MyDocument extends Document {
           <link
             rel="preconnect"
             href="https://fonts.gstatic.com"
-            crossOrigin
+            crossOrigin="true"
           />
           <link
             rel="preload"
             as="style"
             href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Montserrat:wght@400;700&display=swap"
-            crossOrigin
+            crossOrigin="true"
           />
           <link
             rel="preload"
             as="image"
-            href="images/japhet.jng"
-            crossOrigin
+            href="images/japhet.png"
+            crossOrigin="true"
           />
           <link
             rel="preload"
             as="image"
             href="images/background-1.jpg"
-            crossOrigin
+            crossOrigin="true"
           />
           <link
             rel="preload"
             as="image"
             href="images/weather.jpeg"
-            crossOrigin
+            crossOrigin="true"
           />
           <link
             rel="preload"
             as="image"
             href="images/avatar.jpg"
-            crossOrigin
+            crossOrigin="true"
           />
           <link
             rel="stylesheet"

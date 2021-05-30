@@ -7,6 +7,7 @@ import Services from '../src/components/Services/Services';
 import CarouselSlider from '../src/components/Carousel/Carousel';
 import About from '../src/components/About/About';
 import Home from '../src/components/Home/Home';
+import ScrollTop from '../src/components/Scroll/ScrollTop';
 
 export default function Page() {
   return (
@@ -16,7 +17,7 @@ export default function Page() {
       <CarouselSlider />
       <Services />
       <Contact />
-      <Footer />
+      <Footer onScrollTop={<ScrollTop />} />
     </Layout>
   );
 }

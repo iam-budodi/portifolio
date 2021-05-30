@@ -8,7 +8,7 @@ import {
   faEnvelope, faMapMarkerAlt, faPhoneAlt
 } from '@fortawesome/free-solid-svg-icons';
 
-const Footer = () => {
+const Footer = ({ onScrollTop }) => {
   const socialIcon = [
     { link: 'https://www.linkedin.com/in/japhet-sebastian-1a5b7294/', faIcon: faLinkedin },
     { link: 'https://github.com/iam-budodi', faIcon: faGithub },
@@ -25,7 +25,7 @@ const Footer = () => {
               <div className="flex flex-col sm:mx-auto px-4">
                 <span className="font-bold mb-8">Address</span>
                 <address className="italic mb-2 text-sm">
-                  <span className="h-8 w-8 m-auto text-center p-2 text-gray-600 hover:text-white hover:bg-blue-600  text-md hover:border-blue-600 leading-loose">
+                  <span className="h-8 w-8 m-auto p-2 text-gray-700 leading-loose">
                     <FontAwesomeIcon icon={faMapMarkerAlt} />
                   </span>
                   {' '}
@@ -39,14 +39,14 @@ const Footer = () => {
                   </span>
                   {' '}
                   <br />
-                  <span className="h-8 w-8 m-auto text-center p-2 text-gray-600 hover:text-white hover:bg-blue-600  text-md hover:border-blue-600 leading-loose">
+                  <span className="h-8 w-8 m-auto p-2 text-gray-700 leading-loose">
                     <FontAwesomeIcon icon={faPhoneAlt} />
                   </span>
                   {' '}
                   +(255) 744 608 510
                   {' '}
                   <br />
-                  <span className="h-8 w-8 m-auto text-center p-2 text-gray-600 hover:text-white hover:bg-blue-600  text-md hover:border-blue-600 leading-loose">
+                  <span className="h-8 w-8 m-auto p-2 text-gray-700 leading-loose">
                     <FontAwesomeIcon icon={faEnvelope} />
                   </span>
                   {' '}
@@ -57,6 +57,9 @@ const Footer = () => {
                 <span className="font-bold mb-6">Follow me</span>
                 <div className="flex-shrink-0 flex justify-start mb-4 ml-4">
                   <Image height={100} width={100} className="block lg:block h-24 w-24 rounded-full " src="/images/japhet.png" alt="Workflow" />
+                  <span className="absolute right-0 justify-items-center">
+                    {onScrollTop}
+                  </span>
                 </div>
                 <div className="flex sm:justify-center xl:justify-start">
                   {socialIcon.map(({ link, faIcon }) => (

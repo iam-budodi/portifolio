@@ -135,7 +135,7 @@ class CarouselSlider extends React.Component {
                 <div className="px-6 py-4">
                   <div className="font-semibold text-gray-800 text-xl mb-2">My Portifolio Site</div>
                   <p className="text-gray-700 text-base">
-                    Get brief introduction about me and my work.
+                    Get brief introduction about me, my work and experties..
                   </p>
                 </div>
                 <div className="p-6">
