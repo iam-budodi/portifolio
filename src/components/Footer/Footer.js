@@ -18,11 +18,11 @@ const Footer = ({ onScrollTop }) => {
 
   return (
     <>
-      <footer id="contacts" className="footer bg-white relative p-2 border-gray-700 border-b-4 rounded-lg">
-        <div className="container mx-auto px-4">
+      <footer className="footer text-gray-300 bg-gray-800 px-6 py-8 border-gray-700 border-b-4 rounded-none">
+        <div className="container mx-auto">
           <div className="sm:flex sm:mt-4">
             <div className="sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between space-y-8 sm:space-y-0">
-              <div className="flex flex-col sm:mx-auto px-4">
+              <div className="flex flex-col sm:mx-auto">
                 <span className="font-bold mb-8">Address</span>
                 <address className="italic mb-2 text-sm">
                   <span className="h-8 w-8 m-auto p-2 text-gray-700 leading-loose">
@@ -53,7 +53,7 @@ const Footer = ({ onScrollTop }) => {
                   japhets@eximbank.co.tz
                 </address>
               </div>
-              <div className="flex flex-col sm:mx-auto px-4 space-y-6">
+              <div className="flex flex-col sm:mx-auto space-y-6">
                 <span className="font-bold mb-6">Follow me</span>
                 <div className="flex-shrink-0 flex justify-start mb-4 ml-4">
                   <Image height={100} width={100} className="block lg:block h-24 w-24 rounded-full " src="/images/japhet.png" alt="Workflow" />
@@ -79,7 +79,7 @@ const Footer = ({ onScrollTop }) => {
             </div>
           </div>
         </div>
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto">
           <div className="mt-10 border-t-2 border-gray-300 flex flex-col items-center">
             <div className="sm:w-2/3 text-center pt-6 space-y-2">
               <div className="text-base mb-2">
