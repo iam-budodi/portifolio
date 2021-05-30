@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About = () => (
-  <div id="about" className="my-14 space-y-6 rounded p-6">
+  <div id="about" className="my-14 space-y-6 rounded p-4">
     <div className="flex flex-col items-start">
       <p className="text-xl font-semibold leading-5 text-gray-800">A little bit about me</p>
     </div>
