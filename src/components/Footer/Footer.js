@@ -18,7 +18,7 @@ const Footer = ({ onScrollTop }) => {
 
   return (
     <>
-      <footer className="footer text-gray-300 bg-gray-800 px-6 py-8 border-gray-700 border-b-4 rounded-none">
+      <footer className="footer text-gray-300 bg-gray-800 px-6 py-12 border-gray-700 border-b-4 rounded-none">
         <div className="container mx-auto">
           <div className="sm:flex sm:mt-4">
             <div className="sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between space-y-8 sm:space-y-0">
