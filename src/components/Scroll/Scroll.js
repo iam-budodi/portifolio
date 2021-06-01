@@ -8,8 +8,8 @@ const ScrollLink = ({ target, children }) => (
     spy
     smooth
     offset={-5}
-    duration={1500}
-    delay={50}
+    duration={1000}
+    delay={300}
     ignoreCancelEvents={false}
   >
     { children}

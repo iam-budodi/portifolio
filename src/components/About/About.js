@@ -35,11 +35,11 @@ const About = () => (
         <div className="w-full lg:w-2/3 py-2 dark:bg-gray-800 leading-relaxed">
           Currently working at
           {' '}
-          <a href="https://github.com/iam-budodi" className="text-yellow-500 hover:text-yellow-800">Exim Bank Tanzania</a>
+          <a href="https://github.com/iam-budodi" className="font-medium text-yellow-500 hover:text-yellow-800">Exim Bank Tanzania</a>
           {' '}
           as an
           {' '}
-          <span className="text-yellow-500">Application Support Analyst</span>
+          <span className="font-medium text-yellow-500">Application Support Analyst</span>
           ,
           {' '}
           mainly handling analysis of business use cases
