@@ -39,7 +39,7 @@ const Footer = ({ onScrollTop }) => {
                   </span>
                   {' '}
                   <br />
-                  <span className="h-8 w-8 m-auto p-2 text-gray-700 leading-loose">
+                  <span className="h-8 w-8 m-auto p-2 text-gray-500 leading-loose">
                     <FontAwesomeIcon icon={faPhoneAlt} />
                   </span>
                   {' '}
