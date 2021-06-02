@@ -9,22 +9,22 @@ const About = () => (
       <div className="bg-white w-full mx-auto rounded">
         {/* <div className="grid-cols-12 lg:grid-cols-7 md:grid-cols-12 mx-auto w-full lg:w-8/12 lg:items-center rounded bg-white border-t-2"> */}
         <div className="py-6 dark:bg-gray-800 leading-relaxed">
-          {`I'm the guy you need for front-end, back-end or full stack web Development and specialize in the below
+          {`I'm the guy you need for frontend, backend or full-stack web development, specialize in the below
           technology stacks building consistently.`}
         </div>
         <div className="w-full dark:border-gray-800 dark:bg-gray-700 px-4 space-y-2">
           <div className="leading-loose">
-            <span className="font-semibold text-gray-800 text-xl">Frontend:</span>
+            <span className="font-medium text-gray-800 text-lg">Frontend:</span>
             {' '}
             HTML5 | CSS3 | ReactJS
           </div>
           <div className="leading-loose">
-            <span className="font-semibold text-gray-800 text-xl">Backend:</span>
+            <span className="font-medium text-gray-800 text-lg">Backend:</span>
             {' '}
             JavaScript (NodeJS | Express)
           </div>
           <div className="leading-loose">
-            <span className="font-semibold text-gray-800 text-xl">Databases:</span>
+            <span className="font-medium text-gray-800 text-lg">Databases:</span>
             {' '}
             Postgres | MongoDB
           </div>
@@ -36,16 +36,15 @@ const About = () => (
         <div className="w-full py-2 dark:bg-gray-800 leading-relaxed">
           Currently working at
           {' '}
-          <a href="https://github.com/iam-budodi" className="font-medium text-yellow-500 hover:text-yellow-800">Exim Bank Tanzania</a>
+          <a href="https://www.eximbank.co.tz" className="font-medium text-indigo-500 hover:text-indigo-800">Exim Bank Tanzania</a>
           {' '}
           as an
           {' '}
-          <span className="font-medium text-yellow-500">Application Support Analyst</span>
+          <span className="font-medium text-indigo-500">Application Support Analyst</span>
           ,
           {' '}
-          mainly handling analysis of business use cases
-          and the entire software development cycle while liasoning with my internal teams
-          and external vendors.
+          mainly handling analysis of business use cases and directly involved in the entire
+          software development cycle.
         </div>
         {/* </div> */}
       </div>
