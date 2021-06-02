@@ -7,7 +7,7 @@ const Hero = () => (
     <div className="container">
       <div className="grid-cols-12 lg:grid-cols-7 md:grid-cols-12 items-center h-4/6 m-auto absolute top-0 right-0 bottom-0 left-0">
         <div className="text-center">
-          <div className="font-sans font-semibold text-normal">Hello, my name is Japhet</div>
+          <div className="font-sans font-semibold">Hello, my name is Japhet</div>
           <div className="font-sans font-semibold pt-10 text-3xl mb-12 leading leading-relaxed">
             I am a
             <div className="w-10/12 text-yellow-400 mx-auto pt-1 my-2">
