@@ -14,17 +14,17 @@ const About = () => (
         </div>
         <div className="w-full dark:border-gray-800 dark:bg-gray-700 px-8 space-y-2">
           <div className="leading-loose">
-            <span className="font-medium text-gray-800 text-2xl">Frontend:</span>
+            <span className="font-semibold text-gray-800 text-xl">Frontend:</span>
             {' '}
             HTML5 | CSS3 | ReactJS
           </div>
           <div className="leading-loose">
-            <span className="font-medium text-gray-800 text-2xl">Backend:</span>
+            <span className="font-semibold text-gray-800 text-xl">Backend:</span>
             {' '}
             JavaScript (NodeJS | Express)
           </div>
           <div className="leading-loose">
-            <span className="font-medium text-gray-800 text-2xl">Databases:</span>
+            <span className="font-semibold text-gray-800 text-xl">Databases:</span>
             {' '}
             Postgres | MongoDB
           </div>
@@ -36,11 +36,11 @@ const About = () => (
         <div className="w-full py-2 px-4 dark:bg-gray-800 leading-relaxed">
           Currently working at
           {' '}
-          <a href="https://www.eximbank.co.tz" className="font-medium text-indigo-500 hover:text-indigo-800">Exim Bank Tanzania</a>
+          <a href="https://www.eximbank.co.tz" className="font-semibold text-indigo-500 hover:text-indigo-800">Exim Bank Tanzania</a>
           {' '}
           as an
           {' '}
-          <span className="font-medium text-indigo-500">Application Support Analyst</span>
+          <span className="font-semibold text-indigo-500">Application Support Analyst</span>
           ,
           {' '}
           mainly handling analysis of business use cases and directly involved in the entire
