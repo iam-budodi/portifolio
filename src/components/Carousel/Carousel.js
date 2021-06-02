@@ -72,7 +72,7 @@ class CarouselSlider extends React.Component {
       );
     };
     return (
-      <div id="projects" className="my-14 space-y-6 lg:space-x-6 rounded p-6">
+      <div id="projects" className="my-14 space-y-6 lg:space-x-6 rounded p-6 lg:p-12">
         <div className="flex flex-col items-start pt-4">
           <p className="text-xl font-semibold leading-5 text-gray-800 lg:text-3xl">Some of my work</p>
         </div>
@@ -85,7 +85,7 @@ class CarouselSlider extends React.Component {
             // eslint-disable-next-line no-return-assign
             ref={(el) => (this.Carousel = el)}
             partialVisbile={false}
-            customButtonGroup={<CustomSlider />}
+            // customButtonGroup={<CustomSlider />}
             itemClass="slider-image-item"
             responsive={responsive}
             containerClass="carousel-container-with-scrollbar"
