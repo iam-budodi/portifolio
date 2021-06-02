@@ -6,7 +6,7 @@ const About = () => (
       <div className="md:flex-shrink-0">
         <p className="text-xl font-semibold leading-5 text-indigo-500">A little bit about me</p>
       </div>
-      <div className="m-4">
+      <div className="m-4 bg-white">
         {/* <div className="grid-cols-12 lg:grid-cols-7 md:grid-cols-12 mx-auto w-full lg:w-8/12 lg:items-center rounded bg-white border-t-2"> */}
         <div className="py-6 dark:bg-gray-800 leading-relaxed">
           {`I'm the guy you need for front-end, back-end or full stack web Development and specialize in the below
