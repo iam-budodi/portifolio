@@ -1,8 +1,8 @@
 import React from 'react';
 
 const About = () => (
-  <div id="about" className="bg-yellow-500 my-14 rounded overflow-hidden p-4">
-    <div className="md:flex space-y-6 p-6">
+  <div id="about" className="bg-yellow-500 rounded overflow-hidden p-4">
+    <div className="md:flex space-y-6 my-14 p-6">
       <div className="md:flex-shrink-0">
         <p className="text-xl font-semibold leading-5 text-gray-800 md:text-indigo-500">A little bit about me</p>
       </div>
