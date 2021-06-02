@@ -2,13 +2,13 @@ import React from 'react';
 
 const About = () => (
   <div id="about" className="bg-yellow-500 rounded overflow-hidden p-4">
-    <div className="md:flex space-y-6 mt-14 mb-7 p-4">
+    <div className="md:flex space-y-8 mt-14 mb-7 p-4">
       <div className="md:flex-shrink-0">
         <p className="text-xl font-semibold leading-5 text-indigo-500">A little bit about me</p>
       </div>
-      <div className="bg-white w-11/12">
+      <div className="bg-white w-11/12 rounded">
         {/* <div className="grid-cols-12 lg:grid-cols-7 md:grid-cols-12 mx-auto w-full lg:w-8/12 lg:items-center rounded bg-white border-t-2"> */}
-        <div className="py-6 dark:bg-gray-800 leading-relaxed">
+        <div className="py-6 px-2 dark:bg-gray-800 leading-relaxed">
           {`I'm the guy you need for front-end, back-end or full stack web Development and specialize in the below
           technology stacks building consistently.`}
         </div>
