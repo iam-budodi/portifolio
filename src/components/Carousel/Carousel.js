@@ -72,9 +72,9 @@ class CarouselSlider extends React.Component {
       );
     };
     return (
-      <div id="projects" className="my-14 space-y-6 rounded p-6">
+      <div id="projects" className="my-14 space-y-6 lg:space-x-6 rounded p-6">
         <div className="flex flex-col items-start pt-4">
-          <p className="text-xl font-semibold leading-5 text-gray-800">Some of my work</p>
+          <p className="text-xl font-semibold leading-5 text-gray-800 lg:text-3xl">Some of my work</p>
         </div>
         <div className="flex flex-col items-center">
           <p className="leading-5 text-gray-800 text-center">Explore my rich and diverse projects of different size and technologies</p>
@@ -100,7 +100,7 @@ class CarouselSlider extends React.Component {
             }}
           >
             <div className="pb-3">
-              <div className="w-11/12 m-auto rounded overflow-hidden shadow-2xl">
+              <div className="w-11/12 lg:w-8/12 lg:space-x-6 m-auto rounded overflow-hidden shadow-2xl">
                 <Image
                   src="/images/weather.jpeg"
                   alt="Real time weather app"
