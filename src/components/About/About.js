@@ -8,11 +8,11 @@ const About = () => (
       </div>
       <div className="bg-white w-full mx-auto rounded">
         {/* <div className="grid-cols-12 lg:grid-cols-7 md:grid-cols-12 mx-auto w-full lg:w-8/12 lg:items-center rounded bg-white border-t-2"> */}
-        <div className="py-6 px-4 dark:bg-gray-800 leading-relaxed">
+        <div className="py-6 dark:bg-gray-800 leading-relaxed">
           {`I'm the guy you need for front-end, back-end or full stack web Development and specialize in the below
           technology stacks building consistently.`}
         </div>
-        <div className="w-full dark:border-gray-800 dark:bg-gray-700 px-8 space-y-2">
+        <div className="w-full dark:border-gray-800 dark:bg-gray-700 px-4 space-y-2">
           <div className="leading-loose">
             <span className="font-semibold text-gray-800 text-xl">Frontend:</span>
             {' '}
@@ -29,11 +29,11 @@ const About = () => (
             Postgres | MongoDB
           </div>
         </div>
-        <div className="w-full py-6 px-4 dark:bg-gray-800 leading-relaxed">
+        <div className="w-full py-6 dark:bg-gray-800 leading-relaxed">
           I am capable of handling your works alone, and also super collaborative
           when it comes to team.
         </div>
-        <div className="w-full py-2 px-4 dark:bg-gray-800 leading-relaxed">
+        <div className="w-full py-2 dark:bg-gray-800 leading-relaxed">
           Currently working at
           {' '}
           <a href="https://github.com/iam-budodi" className="font-medium text-yellow-500 hover:text-yellow-800">Exim Bank Tanzania</a>
