@@ -1,9 +1,9 @@
 import React from 'react';
 
 const About = () => (
-  <div id="about" className="bg-yellow-500 rounded overflow-hidden p-4">
+  <div id="about" className="bg-yellow-500 overflow-hidden p-4">
     <div className="md:flex space-y-8 mt-14 mb-7">
-      <div className="md:flex-shrink-0">
+      <div className="">
         <p className="text-xl font-semibold leading-5 text-indigo-500">A little bit about me</p>
       </div>
       <div className="bg-white w-full mx-auto rounded">
