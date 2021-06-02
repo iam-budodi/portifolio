@@ -73,7 +73,7 @@ class CarouselSlider extends React.Component {
       );
     };
     return (
-      <div id="projects" className="my-14 space-y-6 lg:space-x-3 rounded p-6 lg:p-12">
+      <div id="projects" className="my-14 space-y-6 lg:w-8/12 rounded p-6 lg:p-12">
         <div className="flex flex-col items-start pt-4">
           <p className="text-xl font-semibold leading-5 text-gray-800 lg:text-3xl">Some of my work</p>
         </div>
@@ -101,7 +101,7 @@ class CarouselSlider extends React.Component {
             }}
           >
             <div className="pb-3">
-              <div className="w-11/12 lg:w-8/12 m-auto rounded overflow-hidden shadow-2xl">
+              <div className="w-11/12 m-auto rounded overflow-hidden shadow-2xl">
                 <Image
                   src="/images/weather.jpeg"
                   alt="Real time weather app"
@@ -124,7 +124,30 @@ class CarouselSlider extends React.Component {
               </div>
             </div>
             <div className="pb-3">
-              <div className="w-11/12 lg:w-8/12 m-auto rounded overflow-hidden shadow-2xl">
+              <div className="w-11/12 m-auto rounded overflow-hidden shadow-2xl">
+                <Image
+                  src="/images/avatar.jpg"
+                  alt="Meet me"
+                  layout="responsive"
+                  height={300}
+                  width={300}
+                  className="w-full"
+                />
+                <div className="px-6 py-4">
+                  <div className="font-semibold text-gray-800 text-xl mb-2">My Portifolio Site</div>
+                  <p className="text-gray-700 text-base">
+                    Get brief introduction about me, my work and experties..
+                  </p>
+                </div>
+                <div className="p-6">
+                  <ActiveLink href=" https://japhet.vercel.app">
+                    <Button />
+                  </ActiveLink>
+                </div>
+              </div>
+            </div>
+            <div className="pb-3">
+              <div className="w-11/12 m-auto rounded overflow-hidden shadow-2xl">
                 <Image
                   src="/images/avatar.jpg"
                   alt="Meet me"
