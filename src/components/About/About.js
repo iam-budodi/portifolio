@@ -2,9 +2,9 @@ import React from 'react';
 
 const About = () => (
   <div id="about" className="bg-yellow-500 rounded overflow-hidden p-4">
-    <div className="md:flex space-y-6 my-14 p-4">
+    <div className="md:flex space-y-6 my-14 p-4 px-2">
       <div className="md:flex-shrink-0">
-        <p className="text-xl font-semibold leading-5 text-gray-800 md:text-indigo-500">A little bit about me</p>
+        <p className="text-xl font-semibold leading-5 text-indigo-500">A little bit about me</p>
       </div>
       <div className="grid-cols-12 lg:grid-cols-7 md:grid-cols-12 w-full lg:w-8/12">
         <div className="grid-cols-12 lg:grid-cols-7 md:grid-cols-12 mx-auto w-full lg:w-8/12 lg:items-center rounded bg-white border-t-2">
