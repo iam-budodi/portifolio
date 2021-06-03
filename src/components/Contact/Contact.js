@@ -7,27 +7,29 @@ const Contact = () => (
         <div className="sm:overflow-hidden sm:rounded-md">
           <h2 className="block mt-6 mb-10 text-xl font-semibold text-gray-800">Interested? Reach me out</h2>
           <div className="py-5 bg-white space-y-8 sm:p-6">
-            <div className="col-span-6 sm:col-span-3 lg:inline-block">
-              <label htmlFor="fullName" className="block text-base font-light text-gray-900">
-                Name
-              </label>
-              <input
-                type="text"
-                name="fullName"
-                id="fullName"
-                className="mt-4 p-2 focus:outline-none focus:ring focus:border-blue-300  block w-full shadow-sm sm:text-sm border-b-4 border-gray-500 rounded-md"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-4 lg:inline-block">
-              <label htmlFor="emailAddress" className="block text-base font-light text-gray-900">
-                Email address
-              </label>
-              <input
-                type="email"
-                name="emailAddress"
-                id="emailAddress"
-                className="mt-4 p-2 focus:outline-none focus:ring focus:border-blue-300  block w-full shadow-sm sm:text-sm border-b-4 border-gray-500 rounded-md"
-              />
+            <div className="">
+              <div className="col-span-6 sm:col-span-3 lg:inline-block lg:col-auto">
+                <label htmlFor="fullName" className="block text-base font-light text-gray-900">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  name="fullName"
+                  id="fullName"
+                  className="mt-4 p-2 focus:outline-none focus:ring focus:border-blue-300  block w-full shadow-sm sm:text-sm border-b-4 border-gray-500 rounded-md"
+                />
+              </div>
+              <div className="col-span-6 sm:col-span-4 lg:inline-block lg:col-auto">
+                <label htmlFor="emailAddress" className="block text-base font-light text-gray-900">
+                  Email address
+                </label>
+                <input
+                  type="email"
+                  name="emailAddress"
+                  id="emailAddress"
+                  className="mt-4 p-2 focus:outline-none focus:ring focus:border-blue-300  block w-full shadow-sm sm:text-sm border-b-4 border-gray-500 rounded-md"
+                />
+              </div>
             </div>
             <div className="col-span-6 sm:col-span-6 lg:col-span-2">
               <label htmlFor="message" className="block text-base font-light text-gray-900">
