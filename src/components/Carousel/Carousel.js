@@ -101,8 +101,8 @@ class CarouselSlider extends React.Component {
                 }
               }}
             >
-              <div className="p-3 increase-size">
-                <div className="w-11/12 lg:h-4/6 m-auto rounded overflow-hidden shadow-2xl">
+              <div className="p-3 lg:h-72">
+                <div className="w-11/12 m-auto rounded overflow-hidden shadow-2xl">
                   <Image
                     src="/images/weather.jpeg"
                     alt="Real time weather app"
