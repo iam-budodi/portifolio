@@ -7,7 +7,7 @@ const Contact = () => (
         <div className="sm:overflow-hidden sm:rounded-md">
           <h2 className="block mt-6 mb-10 text-xl font-semibold text-gray-800">Interested? Reach me out</h2>
           <div className="py-5 bg-white space-y-8 sm:p-6">
-            <div className="lg:grid">
+            <div className="">
               <div className="col-span-6 sm:col-span-3 lg:inline-block">
                 <label htmlFor="fullName" className="block text-base font-light text-gray-900">
                   Name
