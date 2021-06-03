@@ -77,7 +77,7 @@ class CarouselSlider extends React.Component {
         <div className="">
           <p className="text-xl font-semibold leading-5 text-indigo-500 lg:text-3xl">Some of my work</p>
         </div>
-        <div className="lg:w-8/12 space-y-3 lg:mx-auto">
+        <div className="lg:w-8/12 space-y-2 lg:mx-auto">
           <div className="flex flex-col items-center">
             <p className="leading-5 text-gray-800 text-center">Explore my rich and diverse projects of different size and technologies</p>
           </div>
@@ -101,7 +101,7 @@ class CarouselSlider extends React.Component {
                 }
               }}
             >
-              <div className="p-6">
+              <div className="p-4">
                 <div className="w-11/12 m-auto rounded overflow-hidden shadow-2xl">
                   <Image
                     src="/images/weather.jpeg"
@@ -112,7 +112,7 @@ class CarouselSlider extends React.Component {
                     className="w-full"
                   />
                   <div className="px-6 py-4">
-                    <div className="font-semibold text-gray-800 text-xl mb-2">Weather App</div>
+                    <div className="font-semibold text-indigo-500 text-xl mb-2">Weather App</div>
                     <p className="text-gray-700 text-base">
                       Get real-time weather information of any place.
                     </p>
@@ -124,7 +124,7 @@ class CarouselSlider extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="p-6">
+              <div className="p-4">
                 <div className="w-11/12 m-auto rounded overflow-hidden shadow-2xl">
                   <Image
                     src="/images/avatar.jpg"
