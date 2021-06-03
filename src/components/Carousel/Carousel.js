@@ -81,7 +81,7 @@ class CarouselSlider extends React.Component {
           <div className="flex flex-col items-center">
             <p className="leading-5 text-gray-800 text-center">Explore my rich and diverse projects of different size and technologies</p>
           </div>
-          <div className="flex-1 lg:space-x-12 lg:h-4/6 overflow-y-auto">
+          <div className="flex-1 lg:space-x-12  overflow-y-auto">
             <Carousel
               ssr={false}
             // eslint-disable-next-line no-return-assign
@@ -107,8 +107,8 @@ class CarouselSlider extends React.Component {
                     src="/images/weather.jpeg"
                     alt="Real time weather app"
                     layout="responsive"
-                    height={300}
-                    width={300}
+                    height={250}
+                    width={250}
                     className="w-full"
                   />
                   <div className="px-6 py-4">
@@ -130,8 +130,8 @@ class CarouselSlider extends React.Component {
                     src="/images/avatar.jpg"
                     alt="Meet me"
                     layout="responsive"
-                    height={300}
-                    width={300}
+                    height={250}
+                    width={250}
                     className="w-full"
                   />
                   <div className="px-6 py-4">
@@ -153,8 +153,8 @@ class CarouselSlider extends React.Component {
                     src="/images/avatar.jpg"
                     alt="Meet me"
                     layout="responsive"
-                    height={300}
-                    width={300}
+                    height={250}
+                    width={250}
                     className="w-full"
                   />
                   <div className="px-6 py-4">
