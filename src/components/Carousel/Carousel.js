@@ -117,7 +117,7 @@ class CarouselSlider extends React.Component {
                       Get real-time weather information of any place.
                     </p>
                   </div>
-                  <div className="p-6">
+                  <div className="px-6 py-4">
                     <ActiveLink href=" https://gads-weathers.web.app">
                       <Button />
                     </ActiveLink>
@@ -140,7 +140,7 @@ class CarouselSlider extends React.Component {
                       Get brief introduction about me, my work and experties..
                     </p>
                   </div>
-                  <div className="p-6">
+                  <div className="px-6 py-4">
                     <ActiveLink href=" https://japhet.vercel.app">
                       <Button />
                     </ActiveLink>
