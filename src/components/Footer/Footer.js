@@ -23,7 +23,7 @@ const Footer = ({ onScrollTop }) => {
           <div className="sm:flex sm:mt-4">
             <div className="sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between space-y-4 sm:space-y-0">
               <div className="flex flex-col sm:mx-auto">
-                <span className="font-bold mb-8">Address</span>
+                <span className="font-bold text-indigo-500 mb-8">Address</span>
                 <address className="italic mb-2 text-sm">
                   <span className="h-8 w-8 m-auto p-2 text-gray-600 leading-loose">
                     <FontAwesomeIcon icon={faMapMarkerAlt} />
