@@ -26,7 +26,7 @@ const Services = () => {
 
   return (
     <div id="services" className="p-4 lg:p-12 bg-gray-50">
-      <div className="w-full shadow rounded border-t-2 px-6 lg:py-4">
+      <div className="w-full shadow rounded border-t-2 p-6 lg:py-4">
         <div className="">
           <p className="text-xl font-semibold leading-5 text-indigo-500 lg:text-3xl">Services I can offer</p>
         </div>
