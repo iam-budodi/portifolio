@@ -25,32 +25,34 @@ const Services = () => {
   ];
 
   return (
-    <div id="services" className="p-4 lg:p-12 bg-gray-50">
-      <div className="w-full shadow rounded border-t-2 p-6 mt-14 mb-7 lg:my-14 lg:py-4">
+    <div id="services" className="bg-gray-50 overflow-hidden p-4 lg:p-12">
+      <div className="space-y-12 mt-14 mb-7 lg:my-14 lg:py-4">
         <div className="">
           <p className="text-xl font-semibold leading-5 text-indigo-500 lg:text-3xl">Services I can offer</p>
         </div>
-        {services.map(({
-          faIcon, header, smallHeader, paragraph
-        }) => (
-          <div className="my-10 flex" key={header}>
-            <div className="w-10 flex flex-col items-center">
-              <span className="h-10 w-10 border-2 border-gray-300 rounded-full text-center p-2 text-gray-600">
-                <FontAwesomeIcon icon={faIcon} />
-              </span>
-              <div className="pt-4">
-                <svg width={2} height={70} viewBox="0 0 1 47" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <line x1="0.5" y1="2.18557e-08" x2="0.499998" y2={47} stroke="#D1D5DB" strokeDasharray="2 2" />
-                </svg>
+        <div className="bg-white w-full mx-auto rounded lg:p-8">
+          {services.map(({
+            faIcon, header, smallHeader, paragraph
+          }) => (
+            <div className="my-10 flex" key={header}>
+              <div className="w-10 flex flex-col items-center">
+                <span className="h-10 w-10 border-2 border-gray-300 rounded-full text-center p-2 text-gray-600">
+                  <FontAwesomeIcon icon={faIcon} />
+                </span>
+                <div className="pt-4">
+                  <svg width={2} height={70} viewBox="0 0 1 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="0.5" y1="2.18557e-08" x2="0.499998" y2={47} stroke="#D1D5DB" strokeDasharray="2 2" />
+                  </svg>
+                </div>
+              </div>
+              <div className="pl-3">
+                <p className="text-base font-semibold leading-normal text-indigo-400">{header}</p>
+                <p className="text-sm leading-5 font-medium text-indigo-300 pt-1">{smallHeader}</p>
+                <p className="pt-4 text-base leading-normal font-light text-gray-500">{paragraph}</p>
               </div>
             </div>
-            <div className="pl-3">
-              <p className="text-base font-semibold leading-normal text-indigo-400">{header}</p>
-              <p className="text-sm leading-5 font-medium text-indigo-300 pt-1">{smallHeader}</p>
-              <p className="pt-4 text-base leading-normal font-light text-gray-500">{paragraph}</p>
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
