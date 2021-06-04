@@ -20,7 +20,7 @@ const Footer = ({ onScrollTop }) => {
     <>
       <footer className="footer text-gray-300 bg-gray-800 px-6 border-gray-700 border-b-4 rounded-none">
         <div className="container mx-auto">
-          <div className="sm:flex sm:mt-4">
+          <div className="sm:flex">
             <div className="sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between space-y-8 sm:space-y-0">
               <div className="flex flex-col sm:mx-auto">
                 <span className="font-bold mb-8">Address</span>
