@@ -42,7 +42,7 @@ const Contact = () => (
                 className="mt-4 focus:outline-none focus:ring focus:border-blue-300  block w-full shadow-sm sm:text-sm border-b-4 border-gray-500 rounded-md"
               />
             </div>
-            <div className="p-4 bg-gray-50 sm:px-6">
+            <div className="pt-4 bg-gray-50 sm:px-6">
               <div className="lg:w-3/12 lg:mx-auto">
                 <button
                   type="submit"
