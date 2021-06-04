@@ -8,7 +8,7 @@ const Contact = () => (
           <h2 className="block text-xl font-semibold text-indigo-500 lg:text-3xl">Interested? Reach me out</h2>
           <div className="py-5 bg-white space-y-8 lg:space-y-4 sm:p-6">
             <div className="space-y-8 lg:space-x-20 lg:w-6/12 lg:mx-auto">
-              <div className="col-span-6 sm:col-span-3 lg:inline-block lg:w-5/12">
+              <div className="col-span-6 sm:col-span-3 lg:inline-block lg:w-5/12 lg:gap-2">
                 <label htmlFor="fullName" className="block text-base font-light text-gray-900">
                   Name
                 </label>
@@ -19,7 +19,7 @@ const Contact = () => (
                   className="mt-4 p-2 focus:outline-none focus:ring focus:border-blue-300  block w-full shadow-sm sm:text-sm border-b-4 border-gray-500 rounded-md"
                 />
               </div>
-              <div className="col-span-6 sm:col-span-4 lg:ml-2 lg:inline-block lg:w-5/12">
+              <div className="col-span-6 sm:col-span-4 lg:inline-block lg:w-5/12">
                 <label htmlFor="emailAddress" className="block text-base font-light text-gray-900">
                   Email address
                 </label>
