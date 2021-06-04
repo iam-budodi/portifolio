@@ -6,7 +6,7 @@ const Contact = () => (
       <form action="#" method="POST">
         <div className="sm:overflow-hidden sm:rounded-md">
           <h2 className="block text-xl font-semibold text-indigo-500 lg:text-3xl">Interested? Reach me out</h2>
-          <div className="py-5 bg-white space-y-8 lg:space-y-4">
+          <div className="pt-5 pb-2 bg-white space-y-8 lg:space-y-4">
             <div className="space-y-8 lg:space-x-24 lg:w-7/12 lg:mx-auto">
               <div className="col-span-6 sm:col-span-3 lg:inline-block lg:w-5/12">
                 <label htmlFor="fullName" className="block text-base font-light text-gray-900">
