@@ -56,7 +56,7 @@ const Footer = ({ onScrollTop }) => {
               <div className="flex flex-col sm:mx-auto space-y-3">
                 <span className="font-bold mb-4">Follow me</span>
                 <div className="flex-shrink-0 flex justify-start mb-4 ml-4">
-                  <Image height={70} width={70} className="block lg:block h-24 w-24 rounded-full " src="/images/japhet.png" alt="avatar" />
+                  <Image height={60} width={60} className="block lg:block h-24 w-24 rounded-full " src="/images/japhet.png" alt="avatar" />
                   <span className="absolute right-0 justify-items-center lg:hidden">
                     {onScrollTop}
                   </span>
