@@ -6,7 +6,7 @@ const Contact = () => (
       <form action="#" method="POST">
         <div className="sm:overflow-hidden sm:rounded-md">
           <h2 className="block text-xl font-semibold text-indigo-500 lg:text-3xl">Interested? Reach me out</h2>
-          <div className="pt-2 pb-1 bg-white space-y-8 lg:space-y-4">
+          <div className="py-2 bg-white space-y-8 lg:space-y-4">
             <div className="space-y-8 lg:space-x-24 lg:w-7/12 lg:mx-auto">
               <div className="col-span-6 sm:col-span-3 lg:inline-block lg:w-5/12">
                 <label htmlFor="fullName" className="block text-base font-light text-gray-900">
@@ -42,7 +42,7 @@ const Contact = () => (
                 className="mt-4 focus:outline-none focus:ring focus:border-blue-300  block w-full shadow-sm sm:text-sm border-b-4 border-gray-500 rounded-md"
               />
             </div>
-            <div className="pt-4 bg-gray-50 sm:px-6">
+            <div className="p-4 bg-gray-50 sm:px-6">
               <div className="lg:w-3/12 lg:mx-auto">
                 <button
                   type="submit"
