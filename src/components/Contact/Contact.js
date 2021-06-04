@@ -19,7 +19,7 @@ const Contact = () => (
                   className="mt-4 p-2 focus:outline-none focus:ring focus:border-blue-300  block w-full shadow-sm sm:text-sm border-b-4 border-gray-500 rounded-md"
                 />
               </div>
-              <div className="col-span-6 sm:col-span-4 lg:inline-block lg:w-5/12">
+              <div className="col-span-6 sm:col-span-4 lg:ml-2 lg:inline-block lg:w-5/12">
                 <label htmlFor="emailAddress" className="block text-base font-light text-gray-900">
                   Email address
                 </label>
