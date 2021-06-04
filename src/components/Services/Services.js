@@ -30,7 +30,7 @@ const Services = () => {
         <div className="">
           <p className="text-xl font-semibold leading-5 text-indigo-500 lg:text-3xl">Services I can offer</p>
         </div>
-        <div className="bg-white w-full mx-auto rounded lg:p-8">
+        <div className="bg-white w-full mx-auto rounded lg:py-6 lg:px-12">
           {services.map(({
             faIcon, header, smallHeader, paragraph
           }) => (
