@@ -26,9 +26,9 @@ const Services = () => {
 
   return (
     <div id="services" className="p-4 lg:p-12 bg-gray-50">
-      <div className="w-full shadow rounded border-t-2 px-6 py-4">
-        <div className="flex items-end py-4 ">
-          <p className="text-xl font-semibold leading-5 text-indigo-500">Services I can offer</p>
+      <div className="w-full shadow rounded border-t-2 lg:py-4">
+        <div className="">
+          <p className="text-xl font-semibold leading-5 text-indigo-500 lg:text-3xl">Services I can offer</p>
         </div>
         {services.map(({
           faIcon, header, smallHeader, paragraph
