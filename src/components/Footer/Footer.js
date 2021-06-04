@@ -21,7 +21,7 @@ const Footer = ({ onScrollTop }) => {
       <footer className="footer text-gray-300 bg-gray-800 px-6 py-4 border-gray-700 border-b-4 rounded-none">
         <div className="container mx-auto">
           <div className="sm:flex sm:mt-4">
-            <div className="sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between space-y-8 sm:space-y-0">
+            <div className="sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between space-y-6 sm:space-y-0">
               <div className="flex flex-col sm:mx-auto">
                 <span className="font-bold mb-8">Address</span>
                 <address className="italic mb-2 text-sm">
@@ -53,7 +53,7 @@ const Footer = ({ onScrollTop }) => {
                   japhets@eximbank.co.tz
                 </address>
               </div>
-              <div className="flex flex-col sm:mx-auto space-y-6">
+              <div className="flex flex-col sm:mx-auto space-y-4">
                 <span className="font-bold mb-4">Follow me</span>
                 <div className="flex-shrink-0 flex justify-start mb-4 ml-4">
                   <Image height={70} width={70} className="block lg:block h-24 w-24 rounded-full " src="/images/japhet.png" alt="avatar" />
