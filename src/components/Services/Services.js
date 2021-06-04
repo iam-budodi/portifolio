@@ -25,10 +25,10 @@ const Services = () => {
   ];
 
   return (
-    <div id="services" className="">
-      <div className="w-full bg-gray-50 shadow rounded border-t-2 px-6 py-4">
+    <div id="services" className="p-4 lg:p-12 bg-gray-50">
+      <div className="w-full shadow rounded border-t-2 px-6 py-4">
         <div className="flex items-end py-4 ">
-          <p className="text-xl font-semibold leading-5 text-gray-800">Services I can offer</p>
+          <p className="text-xl font-semibold leading-5 text-indigo-300">Services I can offer</p>
         </div>
         {services.map(({
           faIcon, header, smallHeader, paragraph
@@ -45,8 +45,8 @@ const Services = () => {
               </div>
             </div>
             <div className="pl-3">
-              <p className="text-base font-semibold leading-normal text-gray-800">{header}</p>
-              <p className="text-sm leading-5 font-light text-gray-700 pt-1">{smallHeader}</p>
+              <p className="text-base font-semibold leading-normal text-indigo-500">{header}</p>
+              <p className="text-sm leading-5 font-light text-indigo-200 pt-1">{smallHeader}</p>
               <p className="pt-4 text-base leading-normal font-light text-gray-900">{paragraph}</p>
             </div>
           </div>

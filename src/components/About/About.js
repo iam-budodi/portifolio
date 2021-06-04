@@ -13,17 +13,17 @@ const About = () => (
         </div>
         <div className="w-full dark:border-gray-800 dark:bg-gray-700 px-8 lg:px-16 space-y-2">
           <div className="leading-loose">
-            <span className="font-semibold text-gray-800 text-xl">Frontend:</span>
+            <span className="font-semibold text-indigo-500 text-xl">Frontend:</span>
             {' '}
             HTML5 | CSS3 | ReactJS
           </div>
           <div className="leading-loose">
-            <span className="font-semibold text-gray-800 text-xl">Backend:</span>
+            <span className="font-semibold text-indigo-500 text-xl">Backend:</span>
             {' '}
             JavaScript (NodeJS | Express)
           </div>
           <div className="leading-loose">
-            <span className="font-semibold text-gray-800 text-xl">Databases:</span>
+            <span className="font-semibold text-indigo-500 text-xl">Databases:</span>
             {' '}
             Postgres | MongoDB
           </div>
