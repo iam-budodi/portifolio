@@ -21,7 +21,7 @@ const Footer = ({ onScrollTop }) => {
       <footer className="footer text-gray-300 bg-gray-800 px-6 py-3 border-gray-700 border-b-4 rounded-none">
         <div className="container mx-auto">
           <div className="sm:flex sm:mt-4">
-            <div className="sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between space-y-3 sm:space-y-0">
+            <div className="sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between space-y-4 sm:space-y-0">
               <div className="flex flex-col sm:mx-auto">
                 <span className="font-bold mb-8">Address</span>
                 <address className="italic mb-2 text-sm">
@@ -80,7 +80,7 @@ const Footer = ({ onScrollTop }) => {
           </div>
         </div>
         <div className="container mx-auto">
-          <div className="mt-10 border-t-2 border-gray-300 flex flex-col items-center">
+          <div className="mt-10 border-t-2 lg:border-t-1 border-gray-300 flex flex-col items-center">
             <div className="sm:w-2/3 text-center pt-4 space-y-2">
               <div className="text-base mb-2">
                 Copyright &copy; 2021
