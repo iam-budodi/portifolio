@@ -54,10 +54,10 @@ const Footer = ({ onScrollTop }) => {
                 </address>
               </div>
               <div className="flex flex-col sm:mx-auto space-y-6">
-                <span className="font-bold mb-6">Follow me</span>
+                <span className="font-bold mb-4">Follow me</span>
                 <div className="flex-shrink-0 flex justify-start mb-4 ml-4">
-                  <Image height={100} width={100} className="block lg:block h-24 w-24 rounded-full " src="/images/japhet.png" alt="Workflow" />
-                  <span className="absolute right-0 justify-items-center">
+                  <Image height={70} width={70} className="block lg:block h-24 w-24 rounded-full " src="/images/japhet.png" alt="avatar" />
+                  <span className="absolute right-0 justify-items-center lg:hidden">
                     {onScrollTop}
                   </span>
                 </div>
@@ -81,7 +81,7 @@ const Footer = ({ onScrollTop }) => {
         </div>
         <div className="container mx-auto">
           <div className="mt-10 border-t-2 border-gray-300 flex flex-col items-center">
-            <div className="sm:w-2/3 text-center pt-6 space-y-2">
+            <div className="sm:w-2/3 text-center pt-4 space-y-2">
               <div className="text-base mb-2">
                 Copyright &copy; 2021
                 {' '}
