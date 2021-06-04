@@ -26,7 +26,7 @@ const Services = () => {
 
   return (
     <div id="services" className="bg-gray-50 overflow-hidden p-4 lg:p-4">
-      <div className="space-y-8 my-8 lg:my-8 lg:py-4">
+      <div className="space-y-8 p-4 my-8 lg:m-8 lg:py-4">
         <div className="">
           <p className="text-xl font-semibold leading-5 text-indigo-500 lg:text-3xl">Services I can offer</p>
         </div>
