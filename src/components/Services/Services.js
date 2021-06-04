@@ -45,9 +45,9 @@ const Services = () => {
               </div>
             </div>
             <div className="pl-3">
-              <p className="text-base font-semibold leading-normal text-indigo-300">{header}</p>
-              <p className="text-sm leading-5 font-light text-indigo-200 pt-1">{smallHeader}</p>
-              <p className="pt-4 text-base leading-normal font-light text-gray-700">{paragraph}</p>
+              <p className="text-base font-semibold leading-normal text-indigo-400">{header}</p>
+              <p className="text-sm leading-5 font-light text-indigo-300 pt-1">{smallHeader}</p>
+              <p className="pt-4 text-base leading-normal font-light text-gray-500">{paragraph}</p>
             </div>
           </div>
         ))}
