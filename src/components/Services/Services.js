@@ -34,7 +34,7 @@ const Services = () => {
           {services.map(({
             faIcon, header, smallHeader, paragraph
           }) => (
-            <div className="my-10 p-4 flex" key={header}>
+            <div className="my-10 px-4 flex" key={header}>
               <div className="w-10 flex flex-col items-center">
                 <span className="h-10 w-10 border-2 border-gray-300 rounded-full text-center p-2 text-gray-600">
                   <FontAwesomeIcon icon={faIcon} />
