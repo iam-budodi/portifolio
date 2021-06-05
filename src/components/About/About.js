@@ -6,7 +6,7 @@ const About = () => (
       <div className="">
         <p className="text-xl font-semibold leading-5 text-indigo-500 lg:text-3xl">A little bit about me</p>
       </div>
-      <div className="bg-white w-full mx-auto rounded lg:p-8">
+      <div className="bg-white w-full mx-auto rounded lg:p-8 lg:w-8/12">
         <div className="py-6 px-4 lg:px-8 dark:bg-gray-800 leading-relaxed">
           {`I'm the guy you need for frontend, backend or full-stack web development, specialize in the below
           technology stacks building consistently.`}
