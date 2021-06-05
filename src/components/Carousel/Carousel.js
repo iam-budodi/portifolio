@@ -102,7 +102,7 @@ class CarouselSlider extends React.Component {
               }}
             >
               <div className="p-4">
-                <div className="w-11/12 m-auto transform motion-safe:hover:scale-100 group hover:border-gray-400 hover:shadow-2xl rounded overflow-hidden shadow-xl">
+                <div className="w-11/12 m-auto transform motion-safe:hover:scale-110 group hover:border-gray-400 hover:shadow-2xl rounded overflow-hidden shadow-xl">
                   <Image
                     src="/images/weather.jpeg"
                     alt="Real time weather app"
