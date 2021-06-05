@@ -125,7 +125,7 @@ class CarouselSlider extends React.Component {
                 </div>
               </div>
               <div className="p-4">
-                <div className="w-11/12 m-auto transform motion-safe:hover:scale-90 rounded overflow-hidden shadow-2xl">
+                <div className="w-11/12 m-auto transform motion-safe:hover:scale-100 rounded overflow-hidden shadow-2xl">
                   <Image
                     src="/images/avatar.jpg"
                     alt="Meet me"
