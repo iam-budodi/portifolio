@@ -41,8 +41,8 @@ const Nav = () => (
                     src="/images/japhet.png"
                     className="h-12 w-12 rounded-full"
                     alt="Avatar"
-                    width={40}
-                    height={40}
+                    width={50}
+                    height={50}
                   />
                 </span>
                 <span className="hidden lg:block">
