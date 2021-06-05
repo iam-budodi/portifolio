@@ -4,7 +4,7 @@ import ScrollLink from '../Scroll/Scroll';
 
 const Hero = () => (
   <div className="relative h-screen text-white">
-    <div className="container">
+    <div className="container bg-black">
       <div className="grid-cols-12 lg:grid-cols-7 md:grid-cols-12 items-center h-4/6 m-auto absolute top-0 right-0 bottom-0 left-0">
         <div className="text-center">
           <div className="font-sans font-semibold">Hello, my name is Japhet</div>
