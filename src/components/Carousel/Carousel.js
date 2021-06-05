@@ -147,7 +147,7 @@ class CarouselSlider extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="p-3">
+              <div className="p-4">
                 <div className="w-11/12 m-auto transition duration-500 ease-in-out group hover:border-gray-400 rounded overflow-hidden shadow-2xl transform hover:-translate-y-1 hover:scale-105">
                   <Image
                     src="/images/avatar.jpg"
@@ -163,7 +163,7 @@ class CarouselSlider extends React.Component {
                       Get brief introduction about me, my work and experties..
                     </p>
                   </div>
-                  <div className="p-6">
+                  <div className="x-6 py-4">
                     <ActiveLink href=" https://japhet.vercel.app">
                       <Button />
                     </ActiveLink>
