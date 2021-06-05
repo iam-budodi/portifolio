@@ -102,7 +102,7 @@ class CarouselSlider extends React.Component {
               }}
             >
               <div className="p-4">
-                <div className="w-11/12 m-auto transition duration-500 ease-in-out group hover:border-gray-400 hover:shadow-2xl rounded overflow-hidden shadow-2xl transform hover: -translate-y-1 hover:scale-105">
+                <div className="w-11/12 m-auto transition duration-500 ease-in-out group hover:border-gray-400 rounded overflow-hidden shadow-2xl transform hover:-translate-y-1 hover:scale-105">
                   <Image
                     src="/images/weather.jpeg"
                     alt="Real time weather app"
@@ -125,7 +125,7 @@ class CarouselSlider extends React.Component {
                 </div>
               </div>
               <div className="p-4">
-                <div className="w-11/12 m-auto rounded overflow-hidden shadow-2xl">
+                <div className="w-11/12 m-auto transition duration-500 ease-in-out group hover:border-gray-400  rounded overflow-hidden shadow-2xl transform hover:-translate-y-1 hover:scale-105">
                   <Image
                     src="/images/avatar.jpg"
                     alt="Meet me"
@@ -148,7 +148,7 @@ class CarouselSlider extends React.Component {
                 </div>
               </div>
               <div className="p-3">
-                <div className="w-11/12 m-auto rounded overflow-hidden shadow-2xl">
+                <div className="w-11/12 m-auto transition duration-500 ease-in-out group hover:border-gray-400 rounded overflow-hidden shadow-2xl transform hover:-translate-y-1 hover:scale-105">
                   <Image
                     src="/images/avatar.jpg"
                     alt="Meet me"
