@@ -11,14 +11,19 @@ const Contact = () => {
   const sendAlert = (response) => ((+response.status === 200)
     ? notify('success', 'Your email is sent successfully!') : notify('error', 'Please try again!'));
 
+  const handleFormReset = () => setSend({ fullName: '', emailAddress: '', message: '' });
+
   const onSubmit = async (event) => {
     event.preventDefault();
+    handleFormReset();
+
     try {
       const response = await send(
         process.env.serviceID, process.env.templateID, toSend, process.env.userID
       );
       sendAlert(response);
     } catch (error) {
+      sendAlert(error);
       console.log(error);
       console.log(typeof process.env.userID);
     }
