@@ -83,7 +83,9 @@ const Footer = ({ onScrollTop }) => {
           <div className="mt-10 border-t-2 lg:border-t-1 border-gray-300 flex flex-col items-center">
             <div className="sm:w-2/3 text-center pt-4 space-y-2">
               <div className="text-base mb-2">
-                Copyright &copy; 2021
+                Copyright &copy;
+                {' '}
+                {new Date().getFullYear()}
                 {' '}
                 <span className="font-medium text-yellow-400 leading-loose">Japhet Sebastian</span>
                 . All rights reserved.
