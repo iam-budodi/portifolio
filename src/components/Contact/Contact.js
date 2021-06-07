@@ -24,8 +24,6 @@ const Contact = () => {
       sendAlert(response);
     } catch (error) {
       sendAlert(error);
-      console.log(error);
-      console.log(typeof process.env.userID);
     }
   };
 
@@ -84,6 +82,9 @@ const Contact = () => {
               <div className="lg:w-3/12 lg:mx-auto">
                 <button
                   type="submit"
+                  disabled={
+                      toSend.fullName === '' || toSend.emailAddress === '' || toSend.message === ''
+                  }
                   className="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 py-2 px-8 border border-transparent shadow-sm text-md font-medium rounded-md text-white bg-yellow-500 hover:bg-yellow-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 w-full"
                 >
                   Send
