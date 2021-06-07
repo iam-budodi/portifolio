@@ -1,13 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import { send } from 'emailjs-com';
+import toast from '../ToastMessage/ToastMessage';
 
 const Contact = () => {
   const [toSend, setSend] = useState({ fullName: '', emailAddress: '', message: '' });
+  const notify = useCallback((type, message) => {
+    toast({ type, message });
+  }, []);
+
+  const sendAlert = (response) => ((+response.status === 200)
+    ? notify('success', 'Your email is sent successfully!') : notify('error', 'Please try again!'));
 
   const onSubmit = async (event) => {
     event.preventDefault();
     try {
-      await send(process.env.serviceID, process.env.templateID, toSend, process.env.userID);
+      const response = await send(
+        process.env.serviceID, process.env.templateID, toSend, process.env.userID
+      );
+      sendAlert(response);
     } catch (error) {
       console.log(error);
       console.log(typeof process.env.userID);
