@@ -7,8 +7,7 @@ const Contact = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await send(process.env.serviceID, process.env.templateID, toSend, process.env.userID);
-      console.log(response);
+      await send(process.env.serviceID, process.env.templateID, toSend, process.env.userID);
     } catch (error) {
       console.log(error);
       console.log(typeof process.env.userID);
