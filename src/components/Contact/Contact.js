@@ -1,9 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { send } from 'emailjs-com';
 
-const Contact = () => (
-  <>
+const Contact = () => {
+  const [toSend, setSend] = useState({ fullName: '', emailAddress: '', message: '' });
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    try {
+      const response = await send(process.env.serviceID, process.env.templateID, toSend, process.env.userID);
+      console.log(response);
+    } catch (error) {
+      console.log(error);
+      console.log(typeof process.env.userID);
+    }
+  };
+
+  const handleChange = (event) => {
+    setSend({ ...toSend, [event.target.name]: event.target.value });
+  };
+
+  return (
     <div id="contacts" className="p-6 my-1 rounded lg:px-12 lg:pt-8 lg:pb-2">
-      <form action="#" method="POST">
+      <form onSubmit={onSubmit}>
         <div className="sm:overflow-hidden sm:rounded-md">
           <h2 className="block text-xl font-semibold text-indigo-500 lg:text-3xl">Interested? Reach me out</h2>
           <div className="py-2 bg-white space-y-8 lg:space-y-4">
@@ -16,6 +34,8 @@ const Contact = () => (
                   type="text"
                   name="fullName"
                   id="fullName"
+                  value={toSend.fullName}
+                  onChange={handleChange}
                   className="mt-4 p-2 focus:outline-none focus:ring focus:border-blue-300  block w-full shadow-sm sm:text-sm border-b-4 border-gray-500 rounded-md"
                 />
               </div>
@@ -27,6 +47,8 @@ const Contact = () => (
                   type="email"
                   name="emailAddress"
                   id="emailAddress"
+                  value={toSend.emailAddress}
+                  onChange={handleChange}
                   className="mt-4 p-2 focus:outline-none focus:ring focus:border-blue-300  block w-full shadow-sm sm:text-sm border-b-4 border-gray-500 rounded-md"
                 />
               </div>
@@ -39,6 +61,8 @@ const Contact = () => (
                 type="text"
                 name="message"
                 id="message"
+                value={toSend.message}
+                onChange={handleChange}
                 className="mt-4 focus:outline-none focus:ring focus:border-blue-300  block w-full shadow-sm sm:text-sm border-b-4 border-gray-500 rounded-md"
               />
             </div>
@@ -56,7 +80,7 @@ const Contact = () => (
         </div>
       </form>
     </div>
-  </>
-);
+  );
+};
 
 export default Contact;
