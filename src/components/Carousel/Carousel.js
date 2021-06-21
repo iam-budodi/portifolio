@@ -147,29 +147,6 @@ class CarouselSlider extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="p-4">
-                <div className="w-11/12 m-auto transition duration-500 ease-in-out group hover:border-gray-400  rounded overflow-hidden shadow-2xl transform hover:-translate-y-1 hover:scale-105">
-                  <Image
-                    src="/images/avatar.jpg"
-                    alt="Meet me"
-                    layout="responsive"
-                    height={250}
-                    width={250}
-                    className="w-full"
-                  />
-                  <div className="px-6 py-4">
-                    <div className="font-semibold text-indigo-500 text-xl mb-2">My Portifolio Site</div>
-                    <p className="text-gray-700 text-base">
-                      Get brief introduction about me, my work and experties..
-                    </p>
-                  </div>
-                  <div className="px-6 py-4">
-                    <ActiveLink href=" https://japhet.vercel.app">
-                      <Button />
-                    </ActiveLink>
-                  </div>
-                </div>
-              </div>
             </Carousel>
           </div>
         </div>

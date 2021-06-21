@@ -50,7 +50,7 @@ const Footer = ({ onScrollTop }) => {
                     <FontAwesomeIcon icon={faEnvelope} />
                   </span>
                   {' '}
-                  japhets@eximbank.co.tz
+                  japhet.sebastian01@gmail.com
                 </address>
               </div>
               <div className="flex flex-col sm:mx-auto space-y-3">
@@ -81,7 +81,7 @@ const Footer = ({ onScrollTop }) => {
         </div>
         <div className="container mx-auto">
           <div className="mt-10 border-t-2 lg:border-t-1 border-gray-300 flex flex-col items-center">
-            <div className="sm:w-2/3 text-center pt-4 space-y-2">
+            <div className="text-center pt-4 space-y-2">
               <div className="text-base mb-2">
                 Copyright &copy;
                 {' '}
